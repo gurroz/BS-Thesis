@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FaceParamAnimator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/faceparamanimator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config gtkglextmm-1.2 --cflags --libs`" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/faceparamanimator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="`pkg-config gtkglextmm-1.2 --cflags --libs`" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="`pkg-config --cflags  gtkglextmm-1.2`" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config  --libs gtkglextmm-1.2`" />
+			<Add library="gsl" />
+			<Add library="gslcblas" />
+		</Linker>
+		<Unit filename="doc/UMLModeladorCambios.png" />
+		<Unit filename="doc/changelog.txt" />
+		<Unit filename="doc/instalacion.txt" />
+		<Unit filename="src/GLMainScene.cc" />
+		<Unit filename="src/GLMainScene.hh" />
+		<Unit filename="src/GUIDialogAbrirMatlab.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogAbrirMatlab.hh" />
+		<Unit filename="src/GUIDialogAbrirMatlab_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogAbrirMatlab_glade.hh" />
+		<Unit filename="src/GUIDialogAlgCentro.cc" />
+		<Unit filename="src/GUIDialogAlgCentro.hh" />
+		<Unit filename="src/GUIDialogAlgCentro_glade.cc" />
+		<Unit filename="src/GUIDialogAlgCentro_glade.hh" />
+		<Unit filename="src/GUIDialogCambios.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogCambios.hh" />
+		<Unit filename="src/GUIDialogCambios_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogCambios_glade.hh" />
+		<Unit filename="src/GUIDialogDesrefinar.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogDesrefinar.hh" />
+		<Unit filename="src/GUIDialogDesrefinar_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogDesrefinar_glade.hh" />
+		<Unit filename="src/GUIDialogDistribuirHormona.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogDistribuirHormona.hh" />
+		<Unit filename="src/GUIDialogDistribuirHormona_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogDistribuirHormona_glade.hh" />
+		<Unit filename="src/GUIDialogInformacion.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogInformacion.hh" />
+		<Unit filename="src/GUIDialogInformacion_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogInformacion_glade.hh" />
+		<Unit filename="src/GUIDialogInicio.cc" />
+		<Unit filename="src/GUIDialogInicio.hh" />
+		<Unit filename="src/GUIDialogInicio_glade.cc" />
+		<Unit filename="src/GUIDialogInicio_glade.hh" />
+		<Unit filename="src/GUIDialogNuevaMalla.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogNuevaMalla.hh" />
+		<Unit filename="src/GUIDialogNuevaMalla_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogNuevaMalla_glade.hh" />
+		<Unit filename="src/GUIDialogRefinar.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogRefinar.hh" />
+		<Unit filename="src/GUIDialogRefinar_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIDialogRefinar_glade.hh" />
+		<Unit filename="src/GUIFaceMatcher.cc" />
+		<Unit filename="src/GUIFaceMatcher.hh" />
+		<Unit filename="src/GUIFaceMatcher_glade.cc" />
+		<Unit filename="src/GUIFaceMatcher_glade.hh" />
+		<Unit filename="src/GUIVentanaFaceModeling.cpp" />
+		<Unit filename="src/GUIVentanaFaceModeling.hh" />
+		<Unit filename="src/GUIVentanaPrincipal.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIVentanaPrincipal.hh" />
+		<Unit filename="src/GUIVentanaPrincipal_glade.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/GUIVentanaPrincipal_glade.hh" />
+		<Unit filename="src/GUIVentanaTreeGrowth.cpp" />
+		<Unit filename="src/GUIVentanaTreeGrowth.hh" />
+		<Unit filename="src/GUI_AUVSelector.cc" />
+		<Unit filename="src/GUI_AUVSelector.hh" />
+		<Unit filename="src/GUI_AUVSelector_glade.cc" />
+		<Unit filename="src/GUI_AUVSelector_glade.hh" />
+		<Unit filename="src/LoadTextures.cpp" />
+		<Unit filename="src/ScalesForParameters.cc" />
+		<Unit filename="src/ScalesForParameters.h" />
+		<Unit filename="src/SimpleGLScene.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SimpleGLScene.hh" />
+		<Unit filename="src/SimpleGLScenePrimario.cc" />
+		<Unit filename="src/SimpleGLScenePrimario.hh" />
+		<Unit filename="src/SimpleGLSceneSecundario.cc" />
+		<Unit filename="src/SimpleGLSceneSecundario.hh" />
+		<Unit filename="src/adaptercomputationalgeometry.cpp" />
+		<Unit filename="src/adaptercomputationalgeometry.h" />
+		<Unit filename="src/algTriangulacion.h" />
+		<Unit filename="src/algalmacenamiento.h" />
+		<Unit filename="src/algcentrotriangulo.h" />
+		<Unit filename="src/algdesplazamiento.h" />
+		<Unit filename="src/algdesplazamientomallacuadrilateros.h" />
+		<Unit filename="src/algdesplazamientomallatriangulos.h" />
+		<Unit filename="src/algdesrefinamiento.h" />
+		<Unit filename="src/algdesrefinamientomallacuadrilateros.h" />
+		<Unit filename="src/algdesrefinamientomallatriangulos.h" />
+		<Unit filename="src/alggeneracion.h" />
+		<Unit filename="src/algmejoramiento.h" />
+		<Unit filename="src/algmejoramientomallacuadrilateros.h" />
+		<Unit filename="src/algmejoramientomallatriangulos.h" />
+		<Unit filename="src/algrefinamiento.h" />
+		<Unit filename="src/algrefinamientomallacuadrilateros.h" />
+		<Unit filename="src/algrefinamientomallatriangulos.h" />
+		<Unit filename="src/almacenatocomsol_1.cpp" />
+		<Unit filename="src/almacenatocomsol_1.h" />
+		<Unit filename="src/almacenatomlldebug.cpp" />
+		<Unit filename="src/almacenatomlldebug.h" />
+		<Unit filename="src/almacenatooff.cpp" />
+		<Unit filename="src/almacenatooff.h" />
+		<Unit filename="src/almacenatoxyzu.cpp" />
+		<Unit filename="src/almacenatoxyzu.h" />
+		<Unit filename="src/angulominimo.cpp" />
+		<Unit filename="src/angulominimo.h" />
+		<Unit filename="src/arco.cpp" />
+		<Unit filename="src/arco.h" />
+		<Unit filename="src/arcos.cpp" />
+		<Unit filename="src/arcos.h" />
+		<Unit filename="src/areacara.cpp" />
+		<Unit filename="src/areacara.h" />
+		<Unit filename="src/baricentro.cpp" />
+		<Unit filename="src/baricentro.h" />
+		<Unit filename="src/cara.cpp" />
+		<Unit filename="src/cara.h" />
+		<Unit filename="src/caras.cpp" />
+		<Unit filename="src/caras.h" />
+		<Unit filename="src/comando.cpp" />
+		<Unit filename="src/comando.h" />
+		<Unit filename="src/config.h" />
+		<Unit filename="src/criterio.h" />
+		<Unit filename="src/cuadrangular.cpp" />
+		<Unit filename="src/cuadrangular.h" />
+		<Unit filename="src/cuadrilatero.cpp" />
+		<Unit filename="src/cuadrilatero.h" />
+		<Unit filename="src/definiciones.h" />
+		<Unit filename="src/deformar.cpp" />
+		<Unit filename="src/deformar.h" />
+		<Unit filename="src/delaunaylongestedgebisection.cpp" />
+		<Unit filename="src/delaunaylongestedgebisection.h" />
+		<Unit filename="src/desrefinamientoedgecollapse.cpp" />
+		<Unit filename="src/desrefinamientoedgecollapse.h" />
+		<Unit filename="src/desrefinar.cpp" />
+		<Unit filename="src/desrefinar.h" />
+		<Unit filename="src/distribuirhormona.cpp" />
+		<Unit filename="src/distribuirhormona.h" />
+		<Unit filename="src/fabricaalgoritmos.h" />
+		<Unit filename="src/fabricaalgoritmosmallacuadrilateros.cpp" />
+		<Unit filename="src/fabricaalgoritmosmallacuadrilateros.h" />
+		<Unit filename="src/fabricaalgoritmosmallatriangulos.cpp" />
+		<Unit filename="src/fabricaalgoritmosmallatriangulos.h" />
+		<Unit filename="src/generacilindro.cpp" />
+		<Unit filename="src/generacilindro.h" />
+		<Unit filename="src/generafromarchivosxyzu.cpp" />
+		<Unit filename="src/generafromarchivosxyzu.h" />
+		<Unit filename="src/generafromcomsol_1.cpp" />
+		<Unit filename="src/generafromcomsol_1.h" />
+		<Unit filename="src/generafrommatlab.cpp" />
+		<Unit filename="src/generafrommatlab.h" />
+		<Unit filename="src/generafrommedula.cpp" />
+		<Unit filename="src/generafrommedula.h" />
+		<Unit filename="src/generafromoff.cpp" />
+		<Unit filename="src/generafromoff.h" />
+		<Unit filename="src/generafromwfm.cpp" />
+		<Unit filename="src/generafromwfm.h" />
+		<Unit filename="src/generafromwrl.cpp" />
+		<Unit filename="src/generafromwrl.h" />
+		<Unit filename="src/generar.cpp" />
+		<Unit filename="src/generar.h" />
+		<Unit filename="src/guardar.cpp" />
+		<Unit filename="src/guardar.h" />
+		<Unit filename="src/informacionmalla.cpp" />
+		<Unit filename="src/informacionmalla.h" />
+		<Unit filename="src/informar.cpp" />
+		<Unit filename="src/informar.h" />
+		<Unit filename="src/interfacemanualregistration.cpp" />
+		<Unit filename="src/interfacemanualregistration.h" />
+		<Unit filename="src/interpolador.h" />
+		<Unit filename="src/interpoladorMixto.cpp" />
+		<Unit filename="src/interpoladorMixto.h" />
+		<Unit filename="src/interpoladorNodosCercanos.cpp" />
+		<Unit filename="src/interpoladorNodosCercanos.h" />
+		<Unit filename="src/largoarcomaximo.cpp" />
+		<Unit filename="src/largoarcomaximo.h" />
+		<Unit filename="src/largoarcominimo.cpp" />
+		<Unit filename="src/largoarcominimo.h" />
+		<Unit filename="src/lepp.cpp" />
+		<Unit filename="src/lepp.h" />
+		<Unit filename="src/leppdelaunay.cpp" />
+		<Unit filename="src/leppdelaunay.h" />
+		<Unit filename="src/malla.cpp" />
+		<Unit filename="src/malla.h" />
+		<Unit filename="src/mallacuadrilateros.cpp" />
+		<Unit filename="src/mallacuadrilateros.h" />
+		<Unit filename="src/mallatriangulos.cpp" />
+		<Unit filename="src/mallatriangulos.h" />
+		<Unit filename="src/mejdelaunay.cpp" />
+		<Unit filename="src/mejdelaunay.h" />
+		<Unit filename="src/mejorar.cpp" />
+		<Unit filename="src/mejorar.h" />
+		<Unit filename="src/movimientosAUV.cpp" />
+		<Unit filename="src/movimientosAUV.h" />
+		<Unit filename="src/movimientosFromFile.cpp" />
+		<Unit filename="src/movimientosFromFile.h" />
+		<Unit filename="src/movimientosNodos.h" />
+		<Unit filename="src/nodo.cpp" />
+		<Unit filename="src/nodo.h" />
+		<Unit filename="src/nodos.cpp" />
+		<Unit filename="src/nodos.h" />
+		<Unit filename="src/noverificacion.cpp" />
+		<Unit filename="src/noverificacion.h" />
+		<Unit filename="src/polinomio.cpp" />
+		<Unit filename="src/polinomio.h" />
+		<Unit filename="src/punto.cpp" />
+		<Unit filename="src/punto.h" />
+		<Unit filename="src/refinar.cpp" />
+		<Unit filename="src/refinar.h" />
+		<Unit filename="src/registrationmethod.h" />
+		<Unit filename="src/segmenttriangleintersection.cpp" />
+		<Unit filename="src/segmenttriangleintersection.h" />
+		<Unit filename="src/treegrowthsimulator.cc">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/triangular.cpp" />
+		<Unit filename="src/triangular.h" />
+		<Unit filename="src/triangulo.cpp" />
+		<Unit filename="src/triangulo.h" />
+		<Unit filename="src/vect.cpp" />
+		<Unit filename="src/vect.h" />
+		<Unit filename="src/verificacionlocal.cpp" />
+		<Unit filename="src/verificacionlocal.h" />
+		<Unit filename="src/verificacionnodosvecinos.cpp" />
+		<Unit filename="src/verificacionnodosvecinos.h" />
+		<Unit filename="src/verificacionnodosvecinoscolapsoregion.cpp" />
+		<Unit filename="src/verificacionnodosvecinoscolapsoregion.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,18 @@
+// generated 2008/4/17 0:39:07 CLT by cristi@cristi-laptop.(none)
+// using glademm V2.6.0
+//
+// newer (non customized) versions of this file go to GUIDialogDistribuirHormona.hh_new
+
+// you might replace
+//    class foo : public foo_glade { ... };
+// by
+//    typedef foo_glade foo;
+// if you didn't make any modifications to the widget
+
+#ifndef _GUIDIALOGDISTRIBUIRHORMONA_HH
+#  include "GUIDialogDistribuirHormona_glade.hh"
+#  define _GUIDIALOGDISTRIBUIRHORMONA_HH
+class GUIDialogDistribuirHormona : public GUIDialogDistribuirHormona_glade
+{  
+};
+#endif

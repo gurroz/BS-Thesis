@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src/GLMainScene.cc" open="0" top="0" tabpos="22">
+		<Cursor position="9893" topLine="302" />
+	</File>
+	<File name="src/GLMainScene.hh" open="0" top="0" tabpos="3">
+		<Cursor position="77" topLine="0" />
+	</File>
+	<File name="src/GUIDialogAbrirMatlab_glade.cc" open="0" top="0" tabpos="1">
+		<Cursor position="636" topLine="10" />
+	</File>
+	<File name="src/GUIDialogAlgCentro_glade.cc" open="0" top="0" tabpos="2">
+		<Cursor position="606" topLine="10" />
+	</File>
+	<File name="src/GUIDialogCambios_glade.cc" open="0" top="0" tabpos="3">
+		<Cursor position="605" topLine="17" />
+	</File>
+	<File name="src/GUIDialogDesrefinar_glade.cc" open="0" top="0" tabpos="4">
+		<Cursor position="635" topLine="17" />
+	</File>
+	<File name="src/GUIDialogDistribuirHormona_glade.cc" open="0" top="0" tabpos="16">
+		<Cursor position="608" topLine="16" />
+	</File>
+	<File name="src/GUIDialogInformacion_glade.cc" open="0" top="0" tabpos="5">
+		<Cursor position="636" topLine="10" />
+	</File>
+	<File name="src/GUIDialogInicio_glade.cc" open="0" top="0" tabpos="6">
+		<Cursor position="631" topLine="10" />
+	</File>
+	<File name="src/GUIDialogNuevaMalla_glade.cc" open="0" top="0" tabpos="7">
+		<Cursor position="610" topLine="10" />
+	</File>
+	<File name="src/GUIDialogRefinar_glade.cc" open="0" top="0" tabpos="8">
+		<Cursor position="630" topLine="10" />
+	</File>
+	<File name="src/GUIFaceMatcher.cc" open="0" top="0" tabpos="9">
+		<Cursor position="5698" topLine="165" />
+	</File>
+	<File name="src/GUIFaceMatcher_glade.cc" open="0" top="0" tabpos="10">
+		<Cursor position="598" topLine="17" />
+	</File>
+	<File name="src/GUIVentanaFaceModeling.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="3705" topLine="122" />
+	</File>
+	<File name="src/GUIVentanaPrincipal.cc" open="0" top="0" tabpos="25">
+		<Cursor position="2756" topLine="87" />
+	</File>
+	<File name="src/GUIVentanaPrincipal_glade.cc" open="0" top="0" tabpos="12">
+		<Cursor position="606" topLine="17" />
+	</File>
+	<File name="src/GUIVentanaTreeGrowth.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="241" topLine="9" />
+	</File>
+	<File name="src/GUI_AUVSelector_glade.cc" open="0" top="0" tabpos="14">
+		<Cursor position="628" topLine="17" />
+	</File>
+	<File name="src/ScalesForParameters.h" open="0" top="0" tabpos="15">
+		<Cursor position="347" topLine="3" />
+	</File>
+	<File name="src/SimpleGLScene.hh" open="0" top="0" tabpos="1">
+		<Cursor position="100" topLine="3" />
+	</File>
+	<File name="src/almacenatocomsol_1.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="src/almacenatomlldebug.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="50" topLine="0" />
+	</File>
+	<File name="src/almacenatooff.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="45" topLine="0" />
+	</File>
+	<File name="src/almacenatoxyzu.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="104" topLine="0" />
+	</File>
+	<File name="src/arco.cpp" open="0" top="0" tabpos="21">
+		<Cursor position="2347" topLine="129" />
+	</File>
+	<File name="src/arco.h" open="0" top="0" tabpos="24">
+		<Cursor position="0" topLine="34" />
+	</File>
+	<File name="src/generafromwrl.cpp" open="0" top="0" tabpos="23">
+		<Cursor position="1210" topLine="43" />
+	</File>
+	<File name="src/interfacemanualregistration.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/interfacemanualregistration.h" open="1" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/interpolador.h" open="1" top="1" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/interpoladorMixto.h" open="1" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/interpoladorNodosCercanos.h" open="1" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/movimientosAUV.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/movimientosFromFile.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/movimientosNodos.h" open="1" top="0" tabpos="3">
+		<Cursor position="252" topLine="0" />
+	</File>
+	<File name="src/nodos.h" open="0" top="0" tabpos="2">
+		<Cursor position="51" topLine="0" />
+	</File>
+	<File name="src/registrationmethod.h" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

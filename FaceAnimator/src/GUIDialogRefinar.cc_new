@@ -1,0 +1,21 @@
+// generated 2008/4/17 0:39:06 CLT by cristi@cristi-laptop.(none)
+// using glademm V2.6.0
+//
+// newer (non customized) versions of this file go to GUIDialogRefinar.cc_new
+
+// This file is for your program, I won't touch it again!
+
+#include "config.h"
+#include "GUIDialogRefinar.hh"
+
+void GUIDialogRefinar::on_radiobuttonAnguloMinimo_toggled()
+{  
+}
+
+void GUIDialogRefinar::on_radiobuttonAreaCara_toggled()
+{  
+}
+
+void GUIDialogRefinar::on_radiobuttonLargoArcos_toggled()
+{  
+}

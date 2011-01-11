@@ -1,0 +1,41 @@
+Changelog ModeladorCambios
+
+-Rediseño completo de GUI
+-GUI independiente de algoritmos
+-Corregido algoritmos de generacion y visualizacion para lectura de archivos en computadores con LANG!=Ingles (set_locale)
+-Corregido Warnings de Destructores no virtuales en Clases
+-Corregido Warnings de punteros char* en generafromarchivosxyzu
+-Liberacion de memoria en multiples partes de la aplicacion
+-Creacion de nueva clase AlgMejoramiento y comando Mejorar, ahora separado de la parte de refinamiento.
+-Corregido algoritmos de generacion que no eran capaces de abrir algunos tipos de malla.
+-Implementado algoritmo de generacion comsol_1
+-Log de cambios con hora de la accion.
+-Creadas clases de almacenamiento en archivos. (Usando patron strategy)
+-Corregido close de los archivos que se abren.
+-Implementado Visualizador en tiempo real.
+-Reestructuracion y rediseño de clases de refinamiento y mejoramiento.
+-Hartas correcciones para liberar memoria en la clase malla.
+-Algoritmo de Refinamiento Lepp-Delaunay funcionando para mallas grandes.
+-Corregido Criterio LargoArcos para funcionar con algoritmo Lepp-Delaunay
+-Reescrito algoritmo DelaunayLongestEdgeBisection
+-Corregido metodo isDelaunay para evitar aplicarlo en caras que no son coplanares.
+-Implementado visualizador con animaciones.
+-Liberacion de memoria para permitir multiples verificaciones locales.
+-Se crea clase SegmentTriangleIntersection basado en libro "Computational Geometry in C". Se le hacen modificaciones varias para que sea compatible con c++ y que aguante precision con coma flotante.
+-Se crea la clase SegTriInr basandose en patron Adapter. Esta clase adapta los objetos usados en la implementacion actual, con los objetos de la clase SegmentTriangleIntersection.
+-Se crea el nuevo algoritmo de deformacion basado en la verificacion de nodos vecinos.
+-Implementado visualizacion de elementos destacados dentro de la malla.
+-Corregido algoritmos de refinamiento y mejoramiento en lugares donde se verificaban criterios en caras nulas.
+-Implementado esquema de clases y GUI para desrefinamiento de mallas.
+-Corregido memory leak de Malla::getArea
+-Corregido generaFromOff para leer archivos con comentarios en el principio.
+-Optimizado algoritmo leppdelaunay en el chequeo de criterios. Algoritmo anda un 75% mas rapido aprox.
+-Implementado chequeo de consistencia de Euler.
+-Implementado metodos para chequeo de consistencia de la malla, caras, arcos y nodos.
+-Implementado algoritmo de transformacion vertexDeletion y edgeCollapse2.
+-Implementado Informacion de la Malla.
+-Implementado Criterios de LargoArcoMaximo y LargoArcoMinimo.
+-Reimplementado metodo setNormales por uno libre de bugs. (Se caia cuando la malla tenia Nodos que no usaba).
+-Corregidos algoritmos de generacion para puedan generar archivos despues de haber eliminado nodos.
+-Corregido bug en vertexDeletion cuando caras de la orilla son vecinas.
+-Corregido edgeSplit para que incluya las concentraciones en el nuevo nodo agregado.

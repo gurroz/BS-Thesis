@@ -1,0 +1,129 @@
+// generated 2008/4/17 0:39:06 CLT by cristi@cristi-laptop.(none)
+// using glademm V2.6.0
+//
+// newer (non customized) versions of this file go to GUIVentanaPrincipal.cc_new
+
+// This file is for your program, I won't touch it again!
+
+#include "config.h"
+#include "GUIVentanaPrincipal.hh"
+
+void GUIVentanaPrincipal::on_nuevo1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_abrir1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_guardar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_guardar_como1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_salir1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_cortar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_copiar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_pegar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_borrar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_distribuir_hormona1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_deformar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_refinar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_desrefinar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_mejorar1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_triangular1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_cuadrangular1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_informacion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_mostrar_caras1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_mostrar_arcos1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_mostrar_colores_segun_concentracion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_mostrar_todos_los_frames1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_enlentecer_animacion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_detener_animacion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_pausar_animacion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_iniciar_animacion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_apurar_animacion1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_acerca_de1_activate()
+{  
+}
+
+void GUIVentanaPrincipal::on_toolbuttonNuevo_clicked()
+{  
+}
+
+void GUIVentanaPrincipal::on_toolbuttonAbrir_clicked()
+{  
+}
+
+void GUIVentanaPrincipal::on_toolbuttonGuardar_clicked()
+{  
+}

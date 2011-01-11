@@ -1,0 +1,10 @@
+Para instalar esta aplicacion se requiere tener instalado en el sistema:
+
+gtkmm version 2.4
+gtkglextmm version 1.2
+gsl
+geomview
+
+Luego:
+
+./compilar

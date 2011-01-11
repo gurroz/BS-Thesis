@@ -1,0 +1,18 @@
+# generated 2009/4/8 17:28:30 CLT by rvalenzu@rvalenzu-laptop.(none)
+# using glademm V2.6.0
+#
+# newer (non customized) versions of this file go to Makefile.am_new
+bin_PROGRAMS = projectinicio
+
+projectinicio_SOURCES = \
+	projectinicio.cc\
+	GUIDialogInicio_glade.cc \
+	GUIDialogInicio.cc 
+
+noinst_HEADERS = \
+	GUIDialogInicio_glade.hh \
+	GUIDialogInicio.hh 
+
+CXXFLAGS = @CXXFLAGS@ @GTKMM_CFLAGS@ 
+
+projectinicio_LDADD = @LIBS@ @GTKMM_LIBS@ 

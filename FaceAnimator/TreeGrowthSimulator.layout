@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="doc/changelog.txt" open="0" top="0" tabpos="0">
+		<Cursor position="2534" topLine="16" />
+	</File>
+	<File name="src/GLMainScene.cc" open="0" top="0" tabpos="4">
+		<Cursor position="8567" topLine="279" />
+	</File>
+	<File name="src/GLMainScene.hh" open="0" top="0" tabpos="0">
+		<Cursor position="105" topLine="0" />
+	</File>
+	<File name="src/GUIDialogAbrirMatlab.hh" open="0" top="0" tabpos="0">
+		<Cursor position="690" topLine="4" />
+	</File>
+	<File name="src/GUIDialogAbrirMatlab_glade.cc" open="0" top="0" tabpos="0">
+		<Cursor position="1974" topLine="34" />
+	</File>
+	<File name="src/GUIDialogAbrirMatlab_glade.hh" open="0" top="0" tabpos="1">
+		<Cursor position="514" topLine="3" />
+	</File>
+	<File name="src/GUIDialogAlgCentro.cc" open="0" top="0" tabpos="0">
+		<Cursor position="491" topLine="0" />
+	</File>
+	<File name="src/GUIDialogAlgCentro.hh" open="0" top="0" tabpos="0">
+		<Cursor position="245" topLine="2" />
+	</File>
+	<File name="src/GUIDialogAlgCentro_glade.cc" open="0" top="0" tabpos="0">
+		<Cursor position="2935" topLine="0" />
+	</File>
+	<File name="src/GUIDialogCambios.cc" open="0" top="0" tabpos="2">
+		<Cursor position="1107" topLine="0" />
+	</File>
+	<File name="src/GUIDialogCambios.hh" open="0" top="0" tabpos="0">
+		<Cursor position="965" topLine="12" />
+	</File>
+	<File name="src/GUIDialogCambios_glade.cc" open="0" top="0" tabpos="9">
+		<Cursor position="3246" topLine="51" />
+	</File>
+	<File name="src/GUIDialogCambios_glade.hh" open="0" top="0" tabpos="0">
+		<Cursor position="1638" topLine="57" />
+	</File>
+	<File name="src/GUIDialogDesrefinar.cc" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="src/GUIDialogDesrefinar.hh" open="0" top="0" tabpos="0">
+		<Cursor position="489" topLine="3" />
+	</File>
+	<File name="src/GUIDialogDesrefinar_glade.cc" open="0" top="0" tabpos="0">
+		<Cursor position="938" topLine="27" />
+	</File>
+	<File name="src/GUIDialogDistribuirHormona.hh" open="0" top="0" tabpos="0">
+		<Cursor position="380" topLine="1" />
+	</File>
+	<File name="src/GUIDialogInformacion_glade.cc" open="0" top="0" tabpos="0">
+		<Cursor position="1044" topLine="20" />
+	</File>
+	<File name="src/GUIDialogInicio.cc" open="0" top="0" tabpos="0">
+		<Cursor position="545" topLine="6" />
+	</File>
+	<File name="src/GUIDialogInicio_glade.cc" open="0" top="0" tabpos="0">
+		<Cursor position="1545" topLine="29" />
+	</File>
+	<File name="src/GUIDialogInicio_glade.hh" open="0" top="0" tabpos="0">
+		<Cursor position="1197" topLine="24" />
+	</File>
+	<File name="src/GUIDialogNuevaMalla.cc" open="0" top="0" tabpos="6">
+		<Cursor position="2470" topLine="68" />
+	</File>
+	<File name="src/GUIDialogNuevaMalla.hh" open="0" top="0" tabpos="1">
+		<Cursor position="758" topLine="11" />
+	</File>
+	<File name="src/GUIDialogNuevaMalla_glade.cc" open="0" top="0" tabpos="0">
+		<Cursor position="879" topLine="15" />
+	</File>
+	<File name="src/GUIDialogNuevaMalla_glade.hh" open="0" top="0" tabpos="0">
+		<Cursor position="1197" topLine="36" />
+	</File>
+	<File name="src/GUIDialogRefinar_glade.cc" open="0" top="0" tabpos="3">
+		<Cursor position="497" topLine="15" />
+	</File>
+	<File name="src/GUIFaceMatcher.cc" open="1" top="1" tabpos="3">
+		<Cursor position="637" topLine="0" />
+	</File>
+	<File name="src/GUIFaceMatcher.hh" open="0" top="0" tabpos="8">
+		<Cursor position="459" topLine="11" />
+	</File>
+	<File name="src/GUIFaceMatcher_glade.cc" open="0" top="0" tabpos="8">
+		<Cursor position="12984" topLine="319" />
+	</File>
+	<File name="src/GUIFaceMatcher_glade.hh" open="0" top="0" tabpos="6">
+		<Cursor position="1464" topLine="45" />
+	</File>
+	<File name="src/GUIVentanaFaceModeling.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1221" topLine="46" />
+	</File>
+	<File name="src/GUIVentanaFaceModeling.hh" open="0" top="0" tabpos="11">
+		<Cursor position="467" topLine="13" />
+	</File>
+	<File name="src/GUIVentanaPrincipal.cc" open="0" top="0" tabpos="1">
+		<Cursor position="840" topLine="606" />
+	</File>
+	<File name="src/GUIVentanaPrincipal.hh" open="0" top="0" tabpos="9">
+		<Cursor position="734" topLine="40" />
+	</File>
+	<File name="src/GUIVentanaPrincipal_glade.cc" open="0" top="0" tabpos="3">
+		<Cursor position="34387" topLine="750" />
+	</File>
+	<File name="src/GUIVentanaPrincipal_glade.hh" open="0" top="0" tabpos="6">
+		<Cursor position="6099" topLine="161" />
+	</File>
+	<File name="src/GUIVentanaTreeGrowth.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="3015" topLine="92" />
+	</File>
+	<File name="src/GUIVentanaTreeGrowth.hh" open="0" top="0" tabpos="2">
+		<Cursor position="442" topLine="3" />
+	</File>
+	<File name="src/GUI_AUVSelector.cc" open="0" top="0" tabpos="4">
+		<Cursor position="844" topLine="16" />
+	</File>
+	<File name="src/GUI_AUVSelector.hh" open="0" top="0" tabpos="5">
+		<Cursor position="389" topLine="0" />
+	</File>
+	<File name="src/GUI_AUVSelector_glade.cc" open="0" top="0" tabpos="8">
+		<Cursor position="1998" topLine="39" />
+	</File>
+	<File name="src/GUI_AUVSelector_glade.hh" open="0" top="0" tabpos="7">
+		<Cursor position="1122" topLine="33" />
+	</File>
+	<File name="src/LoadTextures.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="201" topLine="0" />
+	</File>
+	<File name="src/ScalesForParameters.cc" open="0" top="0" tabpos="8">
+		<Cursor position="1814" topLine="56" />
+	</File>
+	<File name="src/ScalesForParameters.h" open="0" top="0" tabpos="9">
+		<Cursor position="1517" topLine="44" />
+	</File>
+	<File name="src/SimpleGLScene.cc" open="0" top="0" tabpos="1">
+		<Cursor position="3734" topLine="56" />
+	</File>
+	<File name="src/SimpleGLScene.hh" open="0" top="0" tabpos="5">
+		<Cursor position="1737" topLine="24" />
+	</File>
+	<File name="src/SimpleGLScenePrimario.cc" open="0" top="0" tabpos="2">
+		<Cursor position="8998" topLine="312" />
+	</File>
+	<File name="src/SimpleGLScenePrimario.hh" open="0" top="0" tabpos="6">
+		<Cursor position="868" topLine="12" />
+	</File>
+	<File name="src/SimpleGLSceneSecundario.cc" open="0" top="0" tabpos="3">
+		<Cursor position="545" topLine="6" />
+	</File>
+	<File name="src/SimpleGLSceneSecundario.hh" open="0" top="0" tabpos="4">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="src/adaptercomputationalgeometry.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2454" topLine="0" />
+	</File>
+	<File name="src/adaptercomputationalgeometry.h" open="0" top="0" tabpos="0">
+		<Cursor position="406" topLine="0" />
+	</File>
+	<File name="src/algTriangulacion.h" open="0" top="0" tabpos="7">
+		<Cursor position="226" topLine="0" />
+	</File>
+	<File name="src/algcentrotriangulo.h" open="0" top="0" tabpos="6">
+		<Cursor position="417" topLine="0" />
+	</File>
+	<File name="src/algdesplazamiento.h" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/algdesplazamientomallacuadrilateros.h" open="0" top="0" tabpos="0">
+		<Cursor position="367" topLine="0" />
+	</File>
+	<File name="src/algdesplazamientomallatriangulos.h" open="0" top="0" tabpos="0">
+		<Cursor position="295" topLine="0" />
+	</File>
+	<File name="src/algdesrefinamiento.h" open="0" top="0" tabpos="0">
+		<Cursor position="219" topLine="0" />
+	</File>
+	<File name="src/algdesrefinamientomallacuadrilateros.h" open="0" top="0" tabpos="0">
+		<Cursor position="358" topLine="0" />
+	</File>
+	<File name="src/alggeneracion.h" open="0" top="0" tabpos="12">
+		<Cursor position="154" topLine="0" />
+	</File>
+	<File name="src/algmejoramiento.h" open="0" top="0" tabpos="0">
+		<Cursor position="184" topLine="0" />
+	</File>
+	<File name="src/algmejoramientomallacuadrilateros.h" open="0" top="0" tabpos="0">
+		<Cursor position="320" topLine="0" />
+	</File>
+	<File name="src/algrefinamiento.h" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/algrefinamientomallacuadrilateros.h" open="0" top="0" tabpos="0">
+		<Cursor position="340" topLine="0" />
+	</File>
+	<File name="src/almacenatocomsol_1.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1654" topLine="35" />
+	</File>
+	<File name="src/almacenatomlldebug.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="656" topLine="7" />
+	</File>
+	<File name="src/almacenatooff.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="943" topLine="23" />
+	</File>
+	<File name="src/almacenatooff.h" open="0" top="0" tabpos="0">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="src/almacenatoxyzu.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="2701" topLine="68" />
+	</File>
+	<File name="src/angulominimo.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="245" topLine="0" />
+	</File>
+	<File name="src/angulominimo.h" open="0" top="0" tabpos="0">
+		<Cursor position="193" topLine="0" />
+	</File>
+	<File name="src/arco.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1612" topLine="0" />
+	</File>
+	<File name="src/arco.h" open="0" top="0" tabpos="6">
+		<Cursor position="186" topLine="0" />
+	</File>
+	<File name="src/arcos.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2698" topLine="94" />
+	</File>
+	<File name="src/arcos.h" open="0" top="0" tabpos="9">
+		<Cursor position="119" topLine="0" />
+	</File>
+	<File name="src/areacara.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="247" topLine="0" />
+	</File>
+	<File name="src/baricentro.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="728" topLine="0" />
+	</File>
+	<File name="src/baricentro.h" open="0" top="0" tabpos="0">
+		<Cursor position="152" topLine="0" />
+	</File>
+	<File name="src/cara.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="9147" topLine="373" />
+	</File>
+	<File name="src/cara.h" open="0" top="0" tabpos="12">
+		<Cursor position="4010" topLine="63" />
+	</File>
+	<File name="src/caras.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="690" topLine="18" />
+	</File>
+	<File name="src/caras.h" open="0" top="0" tabpos="10">
+		<Cursor position="616" topLine="4" />
+	</File>
+	<File name="src/comando.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="22" topLine="0" />
+	</File>
+	<File name="src/comando.h" open="0" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/config.h" open="0" top="0" tabpos="0">
+		<Cursor position="56" topLine="0" />
+	</File>
+	<File name="src/cuadrangular.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="317" topLine="1" />
+	</File>
+	<File name="src/cuadrangular.h" open="0" top="0" tabpos="0">
+		<Cursor position="158" topLine="0" />
+	</File>
+	<File name="src/cuadrilatero.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="1095" topLine="21" />
+	</File>
+	<File name="src/cuadrilatero.h" open="0" top="0" tabpos="0">
+		<Cursor position="562" topLine="3" />
+	</File>
+	<File name="src/definiciones.h" open="0" top="0" tabpos="0">
+		<Cursor position="26" topLine="0" />
+	</File>
+	<File name="src/deformar.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="484" topLine="0" />
+	</File>
+	<File name="src/deformar.h" open="0" top="0" tabpos="0">
+		<Cursor position="392" topLine="0" />
+	</File>
+	<File name="src/delaunaylongestedgebisection.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="875" topLine="0" />
+	</File>
+	<File name="src/delaunaylongestedgebisection.h" open="0" top="0" tabpos="5">
+		<Cursor position="307" topLine="1" />
+	</File>
+	<File name="src/desrefinamientoedgecollapse.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="682" topLine="0" />
+	</File>
+	<File name="src/desrefinamientoedgecollapse.h" open="0" top="0" tabpos="0">
+		<Cursor position="110" topLine="0" />
+	</File>
+	<File name="src/desrefinar.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="422" topLine="2" />
+	</File>
+	<File name="src/desrefinar.h" open="0" top="0" tabpos="0">
+		<Cursor position="487" topLine="5" />
+	</File>
+	<File name="src/distribuirhormona.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="8925" topLine="198" />
+	</File>
+	<File name="src/distribuirhormona.h" open="0" top="0" tabpos="2">
+		<Cursor position="556" topLine="33" />
+	</File>
+	<File name="src/fabricaalgoritmos.h" open="0" top="0" tabpos="0">
+		<Cursor position="875" topLine="9" />
+	</File>
+	<File name="src/fabricaalgoritmosmallacuadrilateros.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="925" topLine="1" />
+	</File>
+	<File name="src/fabricaalgoritmosmallacuadrilateros.h" open="0" top="0" tabpos="0">
+		<Cursor position="447" topLine="0" />
+	</File>
+	<File name="src/fabricaalgoritmosmallatriangulos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1757" topLine="3" />
+	</File>
+	<File name="src/fabricaalgoritmosmallatriangulos.h" open="0" top="0" tabpos="0">
+		<Cursor position="721" topLine="0" />
+	</File>
+	<File name="src/generacilindro.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1821" topLine="33" />
+	</File>
+	<File name="src/generacilindro.h" open="0" top="0" tabpos="5">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="src/generafromarchivosxyzu.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2613" topLine="0" />
+	</File>
+	<File name="src/generafromarchivosxyzu.h" open="0" top="0" tabpos="6">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="src/generafromcomsol_1.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="412" topLine="60" />
+	</File>
+	<File name="src/generafromcomsol_1.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/generafrommatlab.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="448" topLine="14" />
+	</File>
+	<File name="src/generafrommatlab.h" open="0" top="0" tabpos="1">
+		<Cursor position="169" topLine="2" />
+	</File>
+	<File name="src/generafrommedula.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="4218" topLine="138" />
+	</File>
+	<File name="src/generafrommedula.h" open="0" top="0" tabpos="2">
+		<Cursor position="672" topLine="0" />
+	</File>
+	<File name="src/generafromoff.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="src/generafromoff.h" open="0" top="0" tabpos="0">
+		<Cursor position="507" topLine="2" />
+	</File>
+	<File name="src/generafromwfm.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="4282" topLine="115" />
+	</File>
+	<File name="src/generafromwfm.h" open="0" top="0" tabpos="0">
+		<Cursor position="475" topLine="0" />
+	</File>
+	<File name="src/generafromwrl.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="362" topLine="211" />
+	</File>
+	<File name="src/generafromwrl.h" open="0" top="0" tabpos="6">
+		<Cursor position="138" topLine="1" />
+	</File>
+	<File name="src/generar.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1491" topLine="36" />
+	</File>
+	<File name="src/generar.h" open="0" top="0" tabpos="11">
+		<Cursor position="796" topLine="6" />
+	</File>
+	<File name="src/guardar.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="5" />
+	</File>
+	<File name="src/informacionmalla.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="1919" topLine="69" />
+	</File>
+	<File name="src/interfacemanualregistration.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="195" topLine="0" />
+	</File>
+	<File name="src/interfacemanualregistration.h" open="0" top="0" tabpos="0">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="src/interpolador.h" open="0" top="0" tabpos="9">
+		<Cursor position="199" topLine="0" />
+	</File>
+	<File name="src/interpoladorMixto.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="3601" topLine="60" />
+	</File>
+	<File name="src/interpoladorNodosCercanos.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2" topLine="0" />
+	</File>
+	<File name="src/largoarcomaximo.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="400" topLine="0" />
+	</File>
+	<File name="src/largoarcominimo.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="403" topLine="0" />
+	</File>
+	<File name="src/lepp.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="661" topLine="1" />
+	</File>
+	<File name="src/leppdelaunay.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2961" topLine="68" />
+	</File>
+	<File name="src/leppdelaunay.h" open="0" top="0" tabpos="0">
+		<Cursor position="240" topLine="0" />
+	</File>
+	<File name="src/malla.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="37403" topLine="1296" />
+	</File>
+	<File name="src/malla.h" open="0" top="0" tabpos="4">
+		<Cursor position="4434" topLine="92" />
+	</File>
+	<File name="src/mallacuadrilateros.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="852" topLine="25" />
+	</File>
+	<File name="src/mallacuadrilateros.h" open="0" top="0" tabpos="1">
+		<Cursor position="586" topLine="8" />
+	</File>
+	<File name="src/mallatriangulos.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="176" topLine="78" />
+	</File>
+	<File name="src/mallatriangulos.h" open="0" top="0" tabpos="10">
+		<Cursor position="381" topLine="0" />
+	</File>
+	<File name="src/mejdelaunay.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="411" topLine="0" />
+	</File>
+	<File name="src/mejdelaunay.h" open="0" top="0" tabpos="0">
+		<Cursor position="376" topLine="0" />
+	</File>
+	<File name="src/mejorar.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="265" topLine="0" />
+	</File>
+	<File name="src/mejorar.h" open="0" top="0" tabpos="0">
+		<Cursor position="121" topLine="0" />
+	</File>
+	<File name="src/movimientosAUV.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="10208" topLine="145" />
+	</File>
+	<File name="src/movimientosAUV.h" open="0" top="0" tabpos="0">
+		<Cursor position="70" topLine="0" />
+	</File>
+	<File name="src/movimientosFromFile.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="716" topLine="26" />
+	</File>
+	<File name="src/movimientosFromFile.h" open="0" top="0" tabpos="10">
+		<Cursor position="408" topLine="0" />
+	</File>
+	<File name="src/nodo.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="3757" topLine="167" />
+	</File>
+	<File name="src/nodo.h" open="0" top="0" tabpos="6">
+		<Cursor position="2664" topLine="52" />
+	</File>
+	<File name="src/nodos.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="44629" topLine="941" />
+	</File>
+	<File name="src/nodos.h" open="0" top="0" tabpos="12">
+		<Cursor position="849" topLine="19" />
+	</File>
+	<File name="src/noverificacion.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="179" topLine="0" />
+	</File>
+	<File name="src/noverificacion.h" open="0" top="0" tabpos="0">
+		<Cursor position="145" topLine="0" />
+	</File>
+	<File name="src/punto.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="267" topLine="40" />
+	</File>
+	<File name="src/punto.h" open="0" top="0" tabpos="4">
+		<Cursor position="247" topLine="12" />
+	</File>
+	<File name="src/refinar.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="764" topLine="8" />
+	</File>
+	<File name="src/refinar.h" open="0" top="0" tabpos="0">
+		<Cursor position="276" topLine="0" />
+	</File>
+	<File name="src/segmenttriangleintersection.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="415" topLine="254" />
+	</File>
+	<File name="src/treegrowthsimulator.cc" open="0" top="0" tabpos="9">
+		<Cursor position="697" topLine="18" />
+	</File>
+	<File name="src/triangular.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="312" topLine="0" />
+	</File>
+	<File name="src/triangular.h" open="0" top="0" tabpos="3">
+		<Cursor position="200" topLine="0" />
+	</File>
+	<File name="src/triangulo.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="545" topLine="0" />
+	</File>
+	<File name="src/triangulo.h" open="0" top="0" tabpos="6">
+		<Cursor position="346" topLine="0" />
+	</File>
+	<File name="src/vect.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="2607" topLine="106" />
+	</File>
+	<File name="src/vect.h" open="0" top="0" tabpos="4">
+		<Cursor position="2118" topLine="18" />
+	</File>
+	<File name="src/verificacionlocal.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="5231" topLine="111" />
+	</File>
+	<File name="src/verificacionlocal.h" open="0" top="0" tabpos="4">
+		<Cursor position="134" topLine="13" />
+	</File>
+	<File name="src/verificacionnodosvecinos.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5949" topLine="123" />
+	</File>
+	<File name="src/verificacionnodosvecinos.h" open="0" top="0" tabpos="2">
+		<Cursor position="409" topLine="1" />
+	</File>
+	<File name="src/verificacionnodosvecinoscolapsoregion.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1627" topLine="24" />
+	</File>
+	<File name="src/verificacionnodosvecinoscolapsoregion.h" open="0" top="0" tabpos="2">
+		<Cursor position="478" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

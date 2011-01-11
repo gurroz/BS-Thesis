@@ -1,0 +1,24 @@
+# generated 2007/10/25 15:55:44 CLST by cristi@cristi-laptop.(none)
+# using glademm V2.6.0
+
+AC_INIT(src/treegrowthsimulator.cc)
+AM_INIT_AUTOMAKE(treegrowthsimulator, 0.0)
+AM_CONFIG_HEADER(config.h)
+
+AC_ISC_POSIX
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_HEADER_STDC
+AC_PROG_CPP
+AC_PROG_CXX
+AC_PROG_CXXCPP
+AM_PROG_LIBTOOL
+
+AC_LANG_CPLUSPLUS
+
+PKG_CHECK_MODULES(GTKMM,[gtkmm-2.4 >= 2.10.8],,
+	[PKG_CHECK_MODULES(GTKMM,[gtkmm-2.0 >= 2.0.0])])
+AC_SUBST(GTKMM_CFLAGS)
+AC_SUBST(GTKMM_LIBS)
+
+AC_OUTPUT(Makefile src/Makefile )
