@@ -1,0 +1,20 @@
+Cambios
+
+-	Se comento la libreria #include <sigc++/compatibility.h>
+-	Se cambiaron las apariciones de SigC::slot por sigc::mem_fun y de SigC:: por sigc::
+- 	Se agregó la libreria #include <limits> cuando decia que numeric_limits no definida
+-	Se agrego #include <stdio.h> cuando decia fopen no declarado
+-	Se agregaron los includes:
+#include <vector>
+#include <iterator>
+#include <algorithm>
+#include <iostream>
+
+	cuando tiraba error por find.
+- Cuando reclamaba por strcmp se agrego #include <stdio.h>
+					#include <string.h>
+
+
+
+
+

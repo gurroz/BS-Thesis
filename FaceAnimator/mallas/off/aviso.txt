@@ -1,0 +1,1 @@
+La malla risu.off tiene errores pues hay cuatro caras que comparten un arco: 269, 272, 1150 y 1153

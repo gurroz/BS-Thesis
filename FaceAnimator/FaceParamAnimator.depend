@@ -5999,3 +5999,1146 @@
 	<math.h>
 	"adaptercomputationalgeometry.h"
 
+1289361482 source:/home/gurroz/Memori/FaceAnimator/src/GLMainScene.cc
+	"GLMainScene.hh"
+	<limits>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GLMainScene.hh
+	"SimpleGLScene.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/SimpleGLScene.hh
+	<iostream>
+	<cstdlib>
+	<gtkmm.h>
+	<gtkglmm.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"malla.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/malla.h
+	<string>
+	<set>
+	<map>
+	<GL/gl.h>
+	"definiciones.h"
+	"nodo.h"
+	"nodos.h"
+	"arcos.h"
+	"arco.h"
+	"cara.h"
+	"caras.h"
+	"polinomio.h"
+	"fabricaalgoritmos.h"
+	"movimientosAUV.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/definiciones.h
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/nodo.h
+	<iostream>
+	<vector>
+	<cassert>
+	<string>
+	<sstream>
+	"punto.h"
+	"vect.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/punto.h
+	<iostream>
+	<cassert>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/vect.h
+	<iostream>
+	<cassert>
+	<math.h>
+	"definiciones.h"
+	"punto.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/nodos.h
+	<vector>
+	<gsl/gsl_poly.h>
+	"nodo.h"
+	"vect.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/arcos.h
+	"nodo.h"
+	"nodos.h"
+	"arco.h"
+	"vect.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/arco.h
+	"malla.h"
+	"punto.h"
+	<iostream>
+	<vector>
+	<cassert>
+	<string>
+	<sstream>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/cara.h
+	<cassert>
+	<vector>
+	<set>
+	<iostream>
+	<string>
+	<sstream>
+	"malla.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/caras.h
+	"nodo.h"
+	"nodos.h"
+	"cara.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/polinomio.h
+	<vector>
+	<iostream>
+	<cassert>
+	<math.h>
+	<gsl/gsl_poly.h>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/fabricaalgoritmos.h
+	"algdesplazamiento.h"
+	"algdesrefinamiento.h"
+	"algrefinamiento.h"
+	"algmejoramiento.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/algdesplazamiento.h
+	"malla.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesrefinamiento.h
+	"malla.h"
+	"criterio.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/criterio.h
+	"malla.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/algrefinamiento.h
+	"malla.h"
+	"criterio.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algmejoramiento.h
+	"malla.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/movimientosAUV.h
+	"movimientosNodos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/movimientosNodos.h
+	"punto.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogAbrirMatlab.cc
+	"config.h"
+	"GUIDialogAbrirMatlab.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/config.h
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogAbrirMatlab.hh
+	"GUIDialogAbrirMatlab_glade.hh"
+	<gtkmm/comboboxtext.h>
+	<string>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogAbrirMatlab_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/spinbutton.h>
+	<gtkmm/label.h>
+	<gtkmm/entry.h>
+	<gtkmm/treeview.h>
+	<gtkmm/combo.h>
+	<gtkmm/table.h>
+	<gtkmm/box.h>
+
+1289362969 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogAbrirMatlab_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogAbrirMatlab_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogAlgCentro.cc
+	"config.h"
+	"GUIDialogAlgCentro.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogAlgCentro.hh
+	"GUIDialogAlgCentro_glade.hh"
+	<gtkmm/comboboxtext.h>
+	<string>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogAlgCentro_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/label.h>
+	<gtkmm/entry.h>
+	<gtkmm/treeview.h>
+	<gtkmm/combo.h>
+	<gtkmm/box.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogAlgCentro_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogAlgCentro_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogCambios.cc
+	"config.h"
+	"GUIDialogCambios.hh"
+	<iostream>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogCambios.hh
+	"GUIDialogCambios_glade.hh"
+	<gtkmm/comboboxtext.h>
+	<string>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIDialogCambios_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/label.h>
+	<gtkmm/entry.h>
+	<gtkmm/treeview.h>
+	<gtkmm/combo.h>
+	<gtkmm/box.h>
+	<gtkmm/spinbutton.h>
+	<gtkmm/table.h>
+	<gtkmm/radiobutton.h>
+	<gtkmm/alignment.h>
+	<gtkmm/frame.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogCambios_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogCambios_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+	<gtkmm/radiobutton.h>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogDesrefinar.cc
+	"config.h"
+	"GUIDialogDesrefinar.hh"
+	"definiciones.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogDesrefinar.hh
+	"GUIDialogDesrefinar_glade.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogDesrefinar_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/radiobutton.h>
+	<gtkmm/spinbutton.h>
+	<gtkmm/box.h>
+	<gtkmm/alignment.h>
+	<gtkmm/label.h>
+	<gtkmm/frame.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogDesrefinar_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogDesrefinar_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/radiobutton.h>
+	<gtkmm/adjustment.h>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogDistribuirHormona.cc
+	"config.h"
+	"GUIDialogDistribuirHormona.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogDistribuirHormona.hh
+	"GUIDialogDistribuirHormona_glade.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogDistribuirHormona_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/label.h>
+	<gtkmm/spinbutton.h>
+	<gtkmm/table.h>
+	<gtkmm/alignment.h>
+	<gtkmm/frame.h>
+	<gtkmm/box.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogDistribuirHormona_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogDistribuirHormona_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogInformacion.cc
+	"config.h"
+	"GUIDialogInformacion.hh"
+	"informacionmalla.h"
+	<sstream>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIDialogInformacion.hh
+	"GUIDialogInformacion_glade.hh"
+	"informar.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogInformacion_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/label.h>
+	<gtkmm/table.h>
+	<gtkmm/alignment.h>
+	<gtkmm/frame.h>
+	<gtkmm/box.h>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/informar.h
+	"comando.h"
+	"informacionmalla.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/comando.h
+	"malla.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/informacionmalla.h
+	<gsl/gsl_histogram.h>
+	"malla.h"
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogInformacion_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogInformacion_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogInicio.cc
+	"config.h"
+	"GUIDialogInicio.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogInicio.hh
+	"GUIDialogInicio_glade.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogInicio_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/window.h>
+	<gtkmm/button.h>
+	<gtkmm/box.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogInicio_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogInicio_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogNuevaMalla.cc
+	<gtkmm.h>
+	"config.h"
+	"GUIDialogNuevaMalla.hh"
+	<iostream>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIDialogNuevaMalla.hh
+	"GUIDialogNuevaMalla_glade.hh"
+	<gtkmm/comboboxtext.h>
+	<string>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogNuevaMalla_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/label.h>
+	<gtkmm/entry.h>
+	<gtkmm/treeview.h>
+	<gtkmm/combo.h>
+	<gtkmm/box.h>
+	<gtkmm/spinbutton.h>
+	<gtkmm/table.h>
+	<gtkmm/alignment.h>
+	<gtkmm/frame.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogNuevaMalla_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogNuevaMalla_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogRefinar.cc
+	"config.h"
+	"GUIDialogRefinar.hh"
+	"definiciones.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogRefinar.hh
+	"GUIDialogRefinar_glade.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIDialogRefinar_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/dialog.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/radiobutton.h>
+	<gtkmm/box.h>
+	<gtkmm/alignment.h>
+	<gtkmm/label.h>
+	<gtkmm/frame.h>
+	<gtkmm/spinbutton.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogRefinar_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIDialogRefinar_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/radiobutton.h>
+	<gtkmm/adjustment.h>
+
+1289363083 source:/home/gurroz/Memori/FaceAnimator/src/GUIFaceMatcher.cc
+	"config.h"
+	"GUIFaceMatcher.hh"
+	"SimpleGLScenePrimario.hh"
+	"SimpleGLSceneSecundario.hh"
+	<fstream>
+	<map>
+	<limits>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIFaceMatcher.hh
+	"GUIFaceMatcher_glade.hh"
+	"SimpleGLSceneSecundario.hh"
+	"SimpleGLScenePrimario.hh"
+	"malla.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIFaceMatcher_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/window.h>
+	<gtkmm/scale.h>
+	<gtkmm/label.h>
+	<gtkmm/image.h>
+	<gtkmm/button.h>
+	<gtkmm/box.h>
+	<gtkmm/table.h>
+	<gtkmm/paned.h>
+	<gtkmm/alignment.h>
+	<gtkmm/buttonbox.h>
+	"ScalesForParameters.h"
+
+1289362970 /home/gurroz/Memori/FaceAnimator/src/ScalesForParameters.h
+	"config.h"
+	<gtkmmconfig.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/label.h>
+	<gtkmm/scale.h>
+	<gtkmm/box.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/SimpleGLSceneSecundario.hh
+	"SimpleGLScene.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/SimpleGLScenePrimario.hh
+	"SimpleGLScene.hh"
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIFaceMatcher_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIFaceMatcher_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+	"ScalesForParameters.h"
+	<iostream>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.cpp
+	"GUIVentanaFaceModeling.hh"
+	"interpoladorMixto.h"
+	"interfacemanualregistration.h"
+	"generafromwfm.h"
+	<fstream>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.hh
+	"GUIVentanaPrincipal.hh"
+	"GUI_AUVSelector.hh"
+	"interpolador.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.hh
+	"GUIVentanaPrincipal_glade.hh"
+	"GLMainScene.hh"
+	"malla.h"
+	"comando.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/window.h>
+	<gtkmm/tooltips.h>
+	<gtkmm/imagemenuitem.h>
+	<gtkmm/menuitem.h>
+	<gtkmm/menu.h>
+	<gtkmm/image.h>
+	<gtkmm/checkmenuitem.h>
+	<gtkmm/menubar.h>
+	<gtkmm/toolbutton.h>
+	<gtkmm/button.h>
+	<gtkmm/separatortoolitem.h>
+	<gtkmm/toolbar.h>
+	<gtkmm/box.h>
+	<gtkmm/alignment.h>
+	<gtkmm/label.h>
+	<gtkmm/frame.h>
+	<gtkmm/textview.h>
+	<gtkmm/scrolledwindow.h>
+	<gtkmm/statusbar.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUI_AUVSelector.hh
+	"GUI_AUVSelector_glade.hh"
+	"GUIVentanaFaceModeling.hh"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/GUI_AUVSelector_glade.hh
+	<gtkmm/accelgroup.h>
+	<gtkmm/window.h>
+	<gtkmm/label.h>
+	<gtkmm/scale.h>
+	<gtkmm/paned.h>
+	<gtkmm/box.h>
+	"ScalesForParameters.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/interpolador.h
+	"malla.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/interpoladorMixto.h
+	"interpolador.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/interfacemanualregistration.h
+	"registrationmethod.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/registrationmethod.h
+	"malla.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/generafromwfm.h
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/alggeneracion.h
+	"malla.h"
+	"mallatriangulos.h"
+	"mallacuadrilateros.h"
+	"LoadTextures.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/mallatriangulos.h
+	"malla.h"
+	"mallacuadrilateros.h"
+	"triangulo.h"
+	"algcentrotriangulo.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/mallacuadrilateros.h
+	"malla.h"
+	"cuadrilatero.h"
+	"mallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/cuadrilatero.h
+	<cassert>
+	"cara.h"
+	<vector>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/triangulo.h
+	<cassert>
+	"cara.h"
+	<vector>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/algcentrotriangulo.h
+	"triangulo.h"
+	"malla.h"
+	"punto.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/LoadTextures.h
+	<GL/gl.h>
+
+1289830642 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
+	"config.h"
+	"GUIVentanaPrincipal.hh"
+	"GUIDialogAbrirMatlab.hh"
+	"GUIDialogNuevaMalla.hh"
+	"GUIDialogRefinar.hh"
+	"GUIDialogDesrefinar.hh"
+	"GUIDialogInformacion.hh"
+	"GUIDialogAlgCentro.hh"
+	"GUI_AUVSelector.hh"
+	"comando.h"
+	"generar.h"
+	"mejorar.h"
+	"guardar.h"
+	"refinar.h"
+	"desrefinar.h"
+	"informar.h"
+	"cuadrangular.h"
+	"triangular.h"
+	"algcentrotriangulo.h"
+	"baricentro.h"
+	<gtkmm.h>
+	<string>
+	<list>
+	<sstream>
+	<fstream>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/generar.h
+	"comando.h"
+	"malla.h"
+	"alggeneracion.h"
+	<string>
+	<list>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/mejorar.h
+	"comando.h"
+	"algmejoramiento.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/guardar.h
+	"comando.h"
+	"algalmacenamiento.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algalmacenamiento.h
+	"malla.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/refinar.h
+	"comando.h"
+	"algrefinamiento.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/desrefinar.h
+	"comando.h"
+	"algdesrefinamiento.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/cuadrangular.h
+	"comando.h"
+	"algcentrotriangulo.h"
+	"mallacuadrilateros.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/triangular.h
+	"comando.h"
+	"mallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/baricentro.h
+	"algcentrotriangulo.h"
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUIVentanaPrincipal_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtk/gtkimagemenuitem.h>
+	<gdkmm/pixbufloader.h>
+	<gtkmm/image.h>
+	<gtkmm/stockid.h>
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaTreeGrowth.cpp
+	"GUIVentanaTreeGrowth.hh"
+	"GUIDialogDistribuirHormona.hh"
+	"distribuirhormona.h"
+	"GUIDialogCambios.hh"
+	"deformar.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaTreeGrowth.hh
+	"GUIVentanaPrincipal.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/distribuirhormona.h
+	"comando.h"
+	"SimpleGLScene.hh"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/deformar.h
+	"comando.h"
+	"algdesplazamiento.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/GUI_AUVSelector.cc
+	"config.h"
+	"GUI_AUVSelector.hh"
+
+1289362970 source:/home/gurroz/Memori/FaceAnimator/src/GUI_AUVSelector_glade.cc
+	"config.h"
+	<gtkmmconfig.h>
+	"GUI_AUVSelector_glade.hh"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+	<iostream>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/LoadTextures.cpp
+	"LoadTextures.h"
+	<GL/glu.h>
+	<stdio.h>
+	<stdlib.h>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/ScalesForParameters.cc
+	"ScalesForParameters.h"
+	<gdk/gdkkeysyms.h>
+	<gtkmm/accelgroup.h>
+	<gtkmm/adjustment.h>
+	<iostream>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/SimpleGLScene.cc
+	"config.h"
+	"SimpleGLScene.hh"
+	"generafromwfm.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/SimpleGLScenePrimario.cc
+	"config.h"
+	"SimpleGLScenePrimario.hh"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/SimpleGLSceneSecundario.cc
+	"config.h"
+	"SimpleGLSceneSecundario.hh"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/adaptercomputationalgeometry.cpp
+	"adaptercomputationalgeometry.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/adaptercomputationalgeometry.h
+	<vector>
+	"vect.h"
+	"segmenttriangleintersection.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/segmenttriangleintersection.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1289363359 source:/home/gurroz/Memori/FaceAnimator/src/almacenatocomsol_1.cpp
+	"almacenatocomsol_1.h"
+	<iostream>
+	<sstream>
+	<string>
+	<stdio.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/almacenatocomsol_1.h
+	"algalmacenamiento.h"
+
+1289363390 source:/home/gurroz/Memori/FaceAnimator/src/almacenatomlldebug.cpp
+	"almacenatomlldebug.h"
+	<stdio.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/almacenatomlldebug.h
+	"algalmacenamiento.h"
+
+1289363403 source:/home/gurroz/Memori/FaceAnimator/src/almacenatooff.cpp
+	"almacenatooff.h"
+	<stdio.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/almacenatooff.h
+	"algalmacenamiento.h"
+
+1289363412 source:/home/gurroz/Memori/FaceAnimator/src/almacenatoxyzu.cpp
+	"almacenatoxyzu.h"
+	<iostream>
+	<sstream>
+	<string>
+	<stdio.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/almacenatoxyzu.h
+	"algalmacenamiento.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/angulominimo.cpp
+	"angulominimo.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/angulominimo.h
+	"criterio.h"
+
+1289440553 source:/home/gurroz/Memori/FaceAnimator/src/arco.cpp
+	"arco.h"
+	"vect.h"
+	<vector>
+	<iterator>
+	<algorithm>
+	<iostream>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/arcos.cpp
+	"arcos.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/areacara.cpp
+	"areacara.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/areacara.h
+	"criterio.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/baricentro.cpp
+	"baricentro.h"
+	"vect.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/cara.cpp
+	"cara.h"
+	<math.h>
+	<algorithm>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/caras.cpp
+	"caras.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/comando.cpp
+	"comando.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/cuadrangular.cpp
+	"cuadrangular.h"
+	"mallatriangulos.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/cuadrilatero.cpp
+	"cuadrilatero.h"
+	"triangulo.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/deformar.cpp
+	"deformar.h"
+	"noverificacion.h"
+	"verificacionlocal.h"
+	"verificacionnodosvecinos.h"
+	"verificacionnodosvecinoscolapsoregion.h"
+	"fabricaalgoritmos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/noverificacion.h
+	"algdesplazamientomallatriangulos.h"
+	"algdesplazamientomallacuadrilateros.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesplazamientomallatriangulos.h
+	"malla.h"
+	"algdesplazamiento.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesplazamientomallacuadrilateros.h
+	"malla.h"
+	"algdesplazamiento.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/verificacionlocal.h
+	<map>
+	<list>
+	"algdesplazamientomallatriangulos.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinos.h
+	"algdesplazamientomallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinoscolapsoregion.h
+	"algdesplazamientomallatriangulos.h"
+	"algdesplazamientomallacuadrilateros.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/delaunaylongestedgebisection.cpp
+	"delaunaylongestedgebisection.h"
+	"mallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/delaunaylongestedgebisection.h
+	"algrefinamientomallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algrefinamientomallatriangulos.h
+	"algrefinamiento.h"
+
+1289440574 source:/home/gurroz/Memori/FaceAnimator/src/desrefinamientoedgecollapse.cpp
+	"desrefinamientoedgecollapse.h"
+	"mallatriangulos.h"
+	<vector>
+	<iterator>
+	<algorithm>
+	<iostream>
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/desrefinamientoedgecollapse.h
+	"algdesrefinamientomallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesrefinamientomallatriangulos.h
+	"algdesrefinamiento.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/desrefinar.cpp
+	"desrefinar.h"
+	"desrefinamientoedgecollapse.h"
+	"areacara.h"
+	"largoarcominimo.h"
+	"fabricaalgoritmos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/largoarcominimo.h
+	"criterio.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/distribuirhormona.cpp
+	"distribuirhormona.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/fabricaalgoritmosmallacuadrilateros.cpp
+	"fabricaalgoritmosmallacuadrilateros.h"
+	"algdesplazamientomallacuadrilateros.h"
+	"noverificacion.h"
+	"verificacionnodosvecinoscolapsoregion.h"
+	"algdesrefinamientomallacuadrilateros.h"
+	"algrefinamientomallacuadrilateros.h"
+	"algmejoramientomallacuadrilateros.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/fabricaalgoritmosmallacuadrilateros.h
+	"fabricaalgoritmos.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/algdesrefinamientomallacuadrilateros.h
+	"algdesrefinamiento.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algrefinamientomallacuadrilateros.h
+	"algrefinamiento.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/algmejoramientomallacuadrilateros.h
+	"algmejoramiento.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/fabricaalgoritmosmallatriangulos.cpp
+	"fabricaalgoritmosmallatriangulos.h"
+	"noverificacion.h"
+	"verificacionlocal.h"
+	"verificacionnodosvecinos.h"
+	"verificacionnodosvecinoscolapsoregion.h"
+	"desrefinamientoedgecollapse.h"
+	"leppdelaunay.h"
+	"delaunaylongestedgebisection.h"
+	"mejdelaunay.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/fabricaalgoritmosmallatriangulos.h
+	"fabricaalgoritmos.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/leppdelaunay.h
+	"algrefinamientomallatriangulos.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/mejdelaunay.h
+	"algmejoramientomallatriangulos.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/algmejoramientomallatriangulos.h
+	"algmejoramiento.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/generacilindro.cpp
+	"generacilindro.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/generacilindro.h
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+	<math.h>
+
+1289440703 source:/home/gurroz/Memori/FaceAnimator/src/generafromarchivosxyzu.cpp
+	"generafromarchivosxyzu.h"
+	<stdio.h>
+	<string.h>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/generafromarchivosxyzu.h
+	<stdio.h>
+	<map>
+	<math.h>
+	<string>
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/generafromcomsol_1.cpp
+	"generafromcomsol_1.h"
+	<fstream>
+	<sstream>
+	<map>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/generafromcomsol_1.h
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/generafrommatlab.cpp
+	"generafrommatlab.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/generafrommatlab.h
+	<stdio.h>
+	<string>
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/generafrommedula.cpp
+	<fstream>
+	<sstream>
+	"generafrommedula.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/generafrommedula.h
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/generafromoff.cpp
+	"generafromoff.h"
+
+1285296762 /home/gurroz/Memori/FaceAnimator/src/generafromoff.h
+	<stdio.h>
+	<map>
+	<math.h>
+	<string>
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/generafromwfm.cpp
+	"generafromwfm.h"
+	<fstream>
+	<sstream>
+	<map>
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/generafromwrl.cpp
+	"generafromwrl.h"
+	<sstream>
+	<map>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/generafromwrl.h
+	<stdio.h>
+	<map>
+	<math.h>
+	<string>
+	<fstream>
+	"alggeneracion.h"
+	"triangulo.h"
+	"cuadrilatero.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/generar.cpp
+	"generar.h"
+	"generafromoff.h"
+	"generafromarchivosxyzu.h"
+	"generafrommatlab.h"
+	"generafromcomsol_1.h"
+	"generacilindro.h"
+	"generafrommedula.h"
+	"generafromwfm.h"
+	"generafromwrl.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/guardar.cpp
+	"guardar.h"
+	"almacenatooff.h"
+	"almacenatoxyzu.h"
+	"almacenatocomsol_1.h"
+	"almacenatomlldebug.h"
+
+1289440755 source:/home/gurroz/Memori/FaceAnimator/src/informacionmalla.cpp
+	"informacionmalla.h"
+	<limits>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/informar.cpp
+	"informar.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/interfacemanualregistration.cpp
+	"interfacemanualregistration.h"
+	"GUIFaceMatcher.hh"
+
+1289440772 source:/home/gurroz/Memori/FaceAnimator/src/interpoladorMixto.cpp
+	"interpoladorMixto.h"
+	<limits>
+
+1289440780 source:/home/gurroz/Memori/FaceAnimator/src/interpoladorNodosCercanos.cpp
+	"interpoladorNodosCercanos.h"
+	<limits>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/interpoladorNodosCercanos.h
+	"interpolador.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/largoarcomaximo.cpp
+	"largoarcomaximo.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/largoarcomaximo.h
+	"criterio.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/largoarcominimo.cpp
+	"largoarcominimo.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/lepp.cpp
+	"lepp.h"
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/lepp.h
+	<vector>
+	"malla.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/leppdelaunay.cpp
+	"leppdelaunay.h"
+	"lepp.h"
+	"mallatriangulos.h"
+
+1289440815 source:/home/gurroz/Memori/FaceAnimator/src/malla.cpp
+	"malla.h"
+	"adaptercomputationalgeometry.h"
+	"movimientosFromFile.h"
+	<limits>
+	<vector>
+	<iterator>
+	<algorithm>
+	<iostream>
+
+1285296760 /home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.h
+	"movimientosNodos.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/mallacuadrilateros.cpp
+	"mallacuadrilateros.h"
+	"triangulo.h"
+	"fabricaalgoritmosmallacuadrilateros.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/mallatriangulos.cpp
+	"mallatriangulos.h"
+	"cuadrilatero.h"
+	"fabricaalgoritmosmallatriangulos.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/mejdelaunay.cpp
+	"mejdelaunay.h"
+	"mallatriangulos.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/mejorar.cpp
+	"mejorar.h"
+	"mejdelaunay.h"
+	"fabricaalgoritmos.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/movimientosAUV.cpp
+	"movimientosAUV.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.cpp
+	"movimientosFromFile.h"
+	<fstream>
+	<sstream>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/nodo.cpp
+	"nodo.h"
+
+1289440837 source:/home/gurroz/Memori/FaceAnimator/src/nodos.cpp
+	"nodos.h"
+	<limits>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/noverificacion.cpp
+	"noverificacion.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/polinomio.cpp
+	"polinomio.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/punto.cpp
+	"punto.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/refinar.cpp
+	"refinar.h"
+	"leppdelaunay.h"
+	"delaunaylongestedgebisection.h"
+	"angulominimo.h"
+	"areacara.h"
+	"largoarcomaximo.h"
+	"fabricaalgoritmos.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/segmenttriangleintersection.cpp
+	"segmenttriangleintersection.h"
+	<iostream>
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/treegrowthsimulator.cc
+	"config.h"
+	<gtkmm/main.h>
+	"GUIDialogInicio.hh"
+	"GUIVentanaFaceModeling.hh"
+	"GUIVentanaTreeGrowth.hh"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/triangular.cpp
+	"triangular.h"
+	"mallacuadrilateros.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/triangulo.cpp
+	"triangulo.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/vect.cpp
+	"vect.h"
+
+1285296760 source:/home/gurroz/Memori/FaceAnimator/src/verificacionlocal.cpp
+	"verificacionlocal.h"
+	"mallatriangulos.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinos.cpp
+	"verificacionnodosvecinos.h"
+	"mallatriangulos.h"
+	"adaptercomputationalgeometry.h"
+
+1285296762 source:/home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinoscolapsoregion.cpp
+	"verificacionnodosvecinoscolapsoregion.h"
+	<math.h>
+	"adaptercomputationalgeometry.h"
+
