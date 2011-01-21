@@ -85,16 +85,16 @@
 	<File name="src/interfacemanualregistration.cpp" open="1" top="0" tabpos="5">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/interfacemanualregistration.h" open="1" top="0" tabpos="9">
+	<File name="src/interfacemanualregistration.h" open="1" top="1" tabpos="8">
+		<Cursor position="314" topLine="0" />
+	</File>
+	<File name="src/interpolador.h" open="0" top="0" tabpos="6">
+		<Cursor position="216" topLine="0" />
+	</File>
+	<File name="src/interpoladorMixto.h" open="1" top="0" tabpos="6">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/interpolador.h" open="1" top="1" tabpos="6">
-		<Cursor position="131" topLine="0" />
-	</File>
-	<File name="src/interpoladorMixto.h" open="1" top="0" tabpos="7">
-		<Cursor position="0" topLine="0" />
-	</File>
-	<File name="src/interpoladorNodosCercanos.h" open="1" top="0" tabpos="8">
+	<File name="src/interpoladorNodosCercanos.h" open="1" top="0" tabpos="7">
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="src/movimientosAUV.cpp" open="1" top="0" tabpos="1">
