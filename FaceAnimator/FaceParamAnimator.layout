@@ -40,11 +40,11 @@
 	<File name="src/GUIFaceMatcher_glade.cc" open="0" top="0" tabpos="10">
 		<Cursor position="598" topLine="17" />
 	</File>
-	<File name="src/GUIVentanaFaceModeling.cpp" open="0" top="0" tabpos="11">
-		<Cursor position="3705" topLine="122" />
+	<File name="src/GUIVentanaFaceModeling.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="2153" topLine="59" />
 	</File>
-	<File name="src/GUIVentanaPrincipal.cc" open="0" top="0" tabpos="25">
-		<Cursor position="2756" topLine="87" />
+	<File name="src/GUIVentanaPrincipal.cc" open="1" top="1" tabpos="1">
+		<Cursor position="7294" topLine="225" />
 	</File>
 	<File name="src/GUIVentanaPrincipal_glade.cc" open="0" top="0" tabpos="12">
 		<Cursor position="606" topLine="17" />
@@ -82,34 +82,43 @@
 	<File name="src/generafromwrl.cpp" open="0" top="0" tabpos="23">
 		<Cursor position="1210" topLine="43" />
 	</File>
-	<File name="src/interfacemanualregistration.cpp" open="1" top="0" tabpos="5">
+	<File name="src/generar.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1659" topLine="27" />
+	</File>
+	<File name="src/generar.h" open="0" top="0" tabpos="2">
+		<Cursor position="602" topLine="7" />
+	</File>
+	<File name="src/interfacemanualregistration.cpp" open="0" top="0" tabpos="5">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/interfacemanualregistration.h" open="1" top="1" tabpos="8">
+	<File name="src/interfacemanualregistration.h" open="0" top="0" tabpos="8">
 		<Cursor position="314" topLine="0" />
 	</File>
 	<File name="src/interpolador.h" open="0" top="0" tabpos="6">
 		<Cursor position="216" topLine="0" />
 	</File>
-	<File name="src/interpoladorMixto.h" open="1" top="0" tabpos="6">
+	<File name="src/interpoladorMixto.h" open="0" top="0" tabpos="6">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/interpoladorNodosCercanos.h" open="1" top="0" tabpos="7">
+	<File name="src/interpoladorNodosCercanos.h" open="0" top="0" tabpos="7">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/movimientosAUV.cpp" open="1" top="0" tabpos="1">
+	<File name="src/malla.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="39" />
+	</File>
+	<File name="src/movimientosAUV.cpp" open="0" top="0" tabpos="1">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/movimientosFromFile.cpp" open="1" top="0" tabpos="2">
+	<File name="src/movimientosFromFile.cpp" open="0" top="0" tabpos="2">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/movimientosNodos.h" open="1" top="0" tabpos="3">
+	<File name="src/movimientosNodos.h" open="0" top="0" tabpos="3">
 		<Cursor position="252" topLine="0" />
 	</File>
 	<File name="src/nodos.h" open="0" top="0" tabpos="2">
 		<Cursor position="51" topLine="0" />
 	</File>
-	<File name="src/registrationmethod.h" open="1" top="0" tabpos="4">
+	<File name="src/registrationmethod.h" open="0" top="0" tabpos="4">
 		<Cursor position="0" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

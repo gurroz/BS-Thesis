@@ -21,6 +21,8 @@ class Generar : public Comando {
 			//tipoFiltro=1 => txt (Matlab)
 			//tipoFiltro=2 => nxnynzu
 			//tipoFiltro=3 => comsol
+			//tipoFiltro=4 => wfm
+			//tipoFiltro=5 => wrl
 		Generar (int tipo, int altura, int radio, int numeroDeAnillos, int puntosPorAnillo, int tipoMalla);
 			//tipo=10 => Cilindro
         Generar(int tipo, string filename, int radio, int numeroDeAnillos, int puntosPorAnillo, int tipoMalla);

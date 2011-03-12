@@ -2,5 +2,6 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="Workspace">
 		<Project filename="FaceParamAnimator.cbp" active="1" />
+		<Project filename="../../TreeGrowthSimulator_2008_new/TreeGrowthSimulator.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

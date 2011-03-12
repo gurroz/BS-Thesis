@@ -160,13 +160,16 @@ void GUIVentanaPrincipal::on_abrir1_activate(){
 		Gtk::FileFilter* filtro=dialog_abrir->get_filter();
 		Comando *comando = NULL;
 
+        bool es_face=false;
 		if (filtro->get_name()=="wfm (WFM)"){
 		    int tipofiltro=4;
+		    es_face=true;
 		    list<string> filenames=dialog_abrir->get_filenames();
 		    comando = new Generar(tipofiltro, filenames);
             }
         else if (filtro->get_name()=="wrl (VRML)"){
 		    int tipofiltro=5;
+		    es_face=true;
 		    list<string> filenames=dialog_abrir->get_filenames();
 		    comando = new Generar(tipofiltro, filenames);
             }
@@ -223,25 +226,30 @@ void GUIVentanaPrincipal::on_abrir1_activate(){
         dialog_abrir->hide();
 
 
-        bool exito = this->procesar_malla();
 
-        if(exito){
-            if(malla->tieneTextura()){
-                simpleglscene->setMuestraArcos(false);
-                this->mostrar_arcos1->set_active(false);
+    if(es_face){
+        bool exito = this->procesar_malla();//muestra la configuracion de caras
+
+            if(exito){
+                if(malla->tieneTextura()){
+                    simpleglscene->setMuestraArcos(false);
+                    this->mostrar_arcos1->set_active(false);
+                }
+
+                simpleglscene->clear();
+                simpleglscene->updateMalla(malla, true);
+
+                this->escribirEnLog("Malla cargada correctamente.");
+            }else{
+                this->escribirEnLog("La malla no se cargó efectivamente");
             }
 
-            simpleglscene->clear();
-            simpleglscene->updateMalla(malla, true);
-
-            this->escribirEnLog("Malla cargada correctamente.");
-        }else{
-            this->escribirEnLog("La malla no se cargó efectivamente");
-        }
-
-		}
+            }
+	}
 	else
-		return;
+		simpleglscene->clear();
+        simpleglscene->updateMalla(malla, true);
+        this->escribirEnLog("Malla cargada correctamente.");
 
 	}
 
