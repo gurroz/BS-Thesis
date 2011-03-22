@@ -1,9 +1,9 @@
 #ifndef MOVIMIENTOSAUV_H_INCLUDED
 #define MOVIMIENTOSAUV_H_INCLUDED
 
-#include "movimientosNodos.h"
+#include "algmejoramientomallatriangulos.h"
 
-class MovimientosAUV : public MovimientosNodos {
+class MovimientosAUV : public AlgMejoramientoMallaTriangulos {
     public:
         MovimientosAUV();
         Punto *getMovimiento(int number_nodo, int indice_unit);

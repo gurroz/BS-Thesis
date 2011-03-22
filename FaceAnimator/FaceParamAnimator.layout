@@ -40,17 +40,20 @@
 	<File name="src/GUIFaceMatcher_glade.cc" open="0" top="0" tabpos="10">
 		<Cursor position="598" topLine="17" />
 	</File>
-	<File name="src/GUIVentanaFaceModeling.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="2153" topLine="59" />
+	<File name="src/GUIVentanaFaceModeling.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2369" topLine="56" />
 	</File>
-	<File name="src/GUIVentanaPrincipal.cc" open="1" top="1" tabpos="1">
-		<Cursor position="7294" topLine="225" />
+	<File name="src/GUIVentanaPrincipal.cc" open="0" top="0" tabpos="1">
+		<Cursor position="16576" topLine="607" />
+	</File>
+	<File name="src/GUIVentanaPrincipal.hh" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="7" />
 	</File>
 	<File name="src/GUIVentanaPrincipal_glade.cc" open="0" top="0" tabpos="12">
-		<Cursor position="606" topLine="17" />
+		<Cursor position="37246" topLine="396" />
 	</File>
 	<File name="src/GUIVentanaTreeGrowth.cpp" open="0" top="0" tabpos="13">
-		<Cursor position="241" topLine="9" />
+		<Cursor position="2033" topLine="50" />
 	</File>
 	<File name="src/GUI_AUVSelector_glade.cc" open="0" top="0" tabpos="14">
 		<Cursor position="628" topLine="17" />
@@ -60,6 +63,12 @@
 	</File>
 	<File name="src/SimpleGLScene.hh" open="0" top="0" tabpos="1">
 		<Cursor position="100" topLine="3" />
+	</File>
+	<File name="src/algmejoramiento.h" open="0" top="0" tabpos="0">
+		<Cursor position="25" topLine="0" />
+	</File>
+	<File name="src/algmejoramientomallatriangulos.h" open="1" top="0" tabpos="5">
+		<Cursor position="261" topLine="0" />
 	</File>
 	<File name="src/almacenatocomsol_1.cpp" open="0" top="0" tabpos="17">
 		<Cursor position="107" topLine="0" />
@@ -79,8 +88,17 @@
 	<File name="src/arco.h" open="0" top="0" tabpos="24">
 		<Cursor position="0" topLine="34" />
 	</File>
+	<File name="src/fabricaalgoritmosmallatriangulos.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="1613" topLine="34" />
+	</File>
+	<File name="src/fabricaalgoritmosmallatriangulos.h" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="3" />
+	</File>
 	<File name="src/generafromwrl.cpp" open="0" top="0" tabpos="23">
 		<Cursor position="1210" topLine="43" />
+	</File>
+	<File name="src/generafromwrl.h" open="1" top="0" tabpos="7">
+		<Cursor position="0" topLine="9" />
 	</File>
 	<File name="src/generar.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="1659" topLine="27" />
@@ -103,17 +121,29 @@
 	<File name="src/interpoladorNodosCercanos.h" open="0" top="0" tabpos="7">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/malla.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="0" topLine="39" />
+	<File name="src/malla.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="2547" topLine="125" />
+	</File>
+	<File name="src/malla.h" open="0" top="0" tabpos="0">
+		<Cursor position="1298" topLine="99" />
+	</File>
+	<File name="src/mejdelaunay.h" open="1" top="0" tabpos="4">
+		<Cursor position="407" topLine="0" />
 	</File>
 	<File name="src/movimientosAUV.cpp" open="0" top="0" tabpos="1">
-		<Cursor position="0" topLine="0" />
+		<Cursor position="103" topLine="0" />
+	</File>
+	<File name="src/movimientosAUV.h" open="1" top="0" tabpos="2">
+		<Cursor position="177" topLine="0" />
 	</File>
 	<File name="src/movimientosFromFile.cpp" open="0" top="0" tabpos="2">
-		<Cursor position="0" topLine="0" />
+		<Cursor position="2040" topLine="0" />
 	</File>
-	<File name="src/movimientosNodos.h" open="0" top="0" tabpos="3">
-		<Cursor position="252" topLine="0" />
+	<File name="src/movimientosFromFile.h" open="1" top="1" tabpos="3">
+		<Cursor position="126" topLine="0" />
+	</File>
+	<File name="src/movimientosNodos.h" open="1" top="0" tabpos="1">
+		<Cursor position="138" topLine="0" />
 	</File>
 	<File name="src/nodos.h" open="0" top="0" tabpos="2">
 		<Cursor position="51" topLine="0" />

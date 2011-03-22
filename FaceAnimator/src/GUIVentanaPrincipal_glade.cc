@@ -131,9 +131,6 @@ GUIVentanaPrincipal_glade::GUIVentanaPrincipal_glade(
    salir1 = NULL;
    menuitem1_menu = Gtk::manage(new class Gtk::Menu());
    menuitem1 = NULL;
-   cortar1 = NULL;
-   copiar1 = NULL;
-   pegar1 = NULL;
    borrar1 = NULL;
    menuitem2_menu = Gtk::manage(new class Gtk::Menu());
    menuitem2 = NULL;
@@ -297,15 +294,6 @@ GUIVentanaPrincipal_glade::GUIVentanaPrincipal_glade(
    menuitem1_menu->items().push_back(Gtk::Menu_Helpers::StockMenuElem(Gtk::StockID("gtk-quit")));
    salir1 = (Gtk::ImageMenuItem *)&menuitem1_menu->items().back();
 
-   menuitem2_menu->items().push_back(Gtk::Menu_Helpers::StockMenuElem(Gtk::StockID("gtk-cut")));
-   cortar1 = (Gtk::ImageMenuItem *)&menuitem2_menu->items().back();
-
-   menuitem2_menu->items().push_back(Gtk::Menu_Helpers::StockMenuElem(Gtk::StockID("gtk-copy")));
-   copiar1 = (Gtk::ImageMenuItem *)&menuitem2_menu->items().back();
-
-   menuitem2_menu->items().push_back(Gtk::Menu_Helpers::StockMenuElem(Gtk::StockID("gtk-paste")));
-   pegar1 = (Gtk::ImageMenuItem *)&menuitem2_menu->items().back();
-
    menuitem2_menu->items().push_back(Gtk::Menu_Helpers::StockMenuElem(Gtk::StockID("gtk-delete")));
    borrar1 = (Gtk::ImageMenuItem *)&menuitem2_menu->items().back();
 
@@ -330,8 +318,7 @@ GUIVentanaPrincipal_glade::GUIVentanaPrincipal_glade(
    malla1_menu->items().push_back(Gtk::Menu_Helpers::SeparatorElem());
    separador4 = (Gtk::MenuItem *)&malla1_menu->items().back();
 
-   malla1_menu->items().push_back(Gtk::Menu_Helpers::ImageMenuElem("Informacion...", *image204));
-   informacion1 = (Gtk::ImageMenuItem *)&malla1_menu->items().back();
+
 
    menuitem3_menu->items().push_back(Gtk::Menu_Helpers::CheckMenuElem("Mostrar caras"));
    mostrar_caras1 = (Gtk::CheckMenuItem *)&menuitem3_menu->items().back();
@@ -344,6 +331,9 @@ GUIVentanaPrincipal_glade::GUIVentanaPrincipal_glade(
 
    menuitem3_menu->items().push_back(Gtk::Menu_Helpers::CheckMenuElem("Mostrar todos los frames"));
    mostrar_todos_los_frames1 = (Gtk::CheckMenuItem *)&menuitem3_menu->items().back();
+
+   menuitem3_menu->items().push_back(Gtk::Menu_Helpers::ImageMenuElem("Informacion...", *image204));
+   informacion1 = (Gtk::ImageMenuItem *)&menuitem3_menu->items().back();
 
    menuitem3_menu->items().push_back(Gtk::Menu_Helpers::SeparatorElem());
    separador3 = (Gtk::MenuItem *)&menuitem3_menu->items().back();
@@ -688,9 +678,6 @@ GUIVentanaPrincipal_glade::GUIVentanaPrincipal_glade(
    separatormenuitem1->show();
    salir1->show();
    menuitem1->show();
-   cortar1->show();
-   copiar1->show();
-   pegar1->show();
    borrar1->show();
    menuitem2->show();
    image198->show();
@@ -765,9 +752,6 @@ GUIVentanaPrincipal_glade::GUIVentanaPrincipal_glade(
    guardar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_guardar1_activate), false);
    guardar_como1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_guardar_como1_activate), false);
    salir1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_salir1_activate), false);
-   cortar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_cortar1_activate), false);
-   copiar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_copiar1_activate), false);
-   pegar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_pegar1_activate), false);
    borrar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_borrar1_activate), false);
    deformar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_deformar1_activate), false);
    refinar1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaPrincipal_glade::on_refinar1_activate), false);

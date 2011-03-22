@@ -86,7 +86,7 @@ void GUIVentanaFaceModeling::on_mostrar_auv1_activate(){
 };
 
 void GUIVentanaFaceModeling::on_deformar1_activate(){
-    if(this->malla == NULL) {
+   if(this->malla == NULL) {
 		this->escribirEnLog("La malla aun no esta seteada.");
         return;
     }

@@ -14,17 +14,19 @@ Cambios
 - Cuando reclamaba por strcmp se agrego #include <stdio.h>
 					#include <string.h>
 
+- Se arreglo el error al momento de abrir un malla siempre mostraba el menu de registration (hacer calzar las caras)
+- Saca copiar, pegar, cortar
+- Poner informacion en ver
+
 
 Cambios que hay que hacer:
 
-- al cargar una malla siempre aparece la necesidad de cargar de carga de cara.
-- Refinar no funciona con las caras (validar)
-- Desrefinar con las caras si funciona (validar, porque funciona desrefinar y no refinar?)(solo en triangulares)
-- Mejoramiento si funciona en caras (solo en triangulares)
-- Triangular y cuadrar si funcionan en cara, pero no se sabe cual es el objetivo.
-- Al
-
-
+- Agregar distribuir hormona *
+- Action units debiese ir en malla
+-existe la clase MovimientoNodos, la cual se debe eliminar y colgar  sus hijos directamente de
+AlgDesplazamientoMallaTriangulos, ya que actualmente no se encuentra ligada a ninguna clase, y efectivamente pertenece a un tipo de movimiento de nodos
+- llamada GenerarMallaInicial, el cual contendrá como hijos a las clases RegistrationMethod e Interpolator, ya que actualmente estas por si solas no permiten identificar su dependencia dentro del diagrama ni su uso.
+- En deformar hay que agregar lo de calzar caras (registracionMethod, ahi mismo hace la interpolacion). 
 
 
 

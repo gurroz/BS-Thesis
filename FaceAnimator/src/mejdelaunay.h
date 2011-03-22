@@ -9,6 +9,7 @@
 class MejDelaunay : public AlgMejoramientoMallaTriangulos {
     public:
         MejDelaunay();
+        Punto *getMovimiento(int number_nodo, int indice_unit);
         void aplicar(Malla *malla);
 };
 

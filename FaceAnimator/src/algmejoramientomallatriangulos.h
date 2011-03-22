@@ -8,8 +8,10 @@
  */
 class AlgMejoramientoMallaTriangulos : public AlgMejoramiento {
     public:
-        virtual void aplicar(Malla *malla) = 0;
+        virtual void aplicar(Malla *malla)=0;
+        virtual Punto *getMovimiento(int number_nodo, int indice_unit)=0;
 		virtual ~AlgMejoramientoMallaTriangulos(){}
+
 };
 
 #endif
