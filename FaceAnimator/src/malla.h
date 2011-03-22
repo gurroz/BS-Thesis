@@ -16,7 +16,7 @@
 #include "caras.h"
 #include "polinomio.h"
 #include "fabricaalgoritmos.h"
-
+#include "movimientosNodos.h"
 
 class Arco;
 class Arcos;
@@ -42,7 +42,7 @@ class Malla{
 		GLuint textura;
 		bool hasTextura;
 		Malla *sgteMalla;
-		MovimientosFromFile *movimientos;
+		MovimientosNodos *movimientos;
 
     public:
         // construtores:

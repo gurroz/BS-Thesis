@@ -1,13 +1,12 @@
 #ifndef MOVIMIENTOSFROMFILE_H_INCLUDED
 #define MOVIMIENTOSFROMFILE_H_INCLUDED
 
-#include "algmejoramientomallatriangulos.h"
+#include "movimientosNodos.h"
 
-class MovimientosFromFile : public AlgMejoramientoMallaTriangulos {
+class MovimientosFromFile : public MovimientosNodos {
     public:
         MovimientosFromFile(string filename);
         Punto *getMovimiento(int number_nodo, int indice_unit);
-        void aplicar(Malla *malla);
         ~MovimientosFromFile();
     private:
         int N;

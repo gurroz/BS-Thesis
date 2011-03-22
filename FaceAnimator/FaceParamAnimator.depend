@@ -6016,7 +6016,7 @@
 	<GL/glu.h>
 	"malla.h"
 
-1300760758 /home/gurroz/Memori/FaceAnimator/src/malla.h
+1300762432 /home/gurroz/Memori/FaceAnimator/src/malla.h
 	<string>
 	<set>
 	<map>
@@ -6030,6 +6030,7 @@
 	"caras.h"
 	"polinomio.h"
 	"fabricaalgoritmos.h"
+	"movimientosNodos.h"
 
 1285296762 /home/gurroz/Memori/FaceAnimator/src/definiciones.h
 
@@ -6118,8 +6119,8 @@
 1285296760 /home/gurroz/Memori/FaceAnimator/src/algmejoramiento.h
 	"malla.h"
 
-1300309053 /home/gurroz/Memori/FaceAnimator/src/movimientosAUV.h
-	"algmejoramientomallatriangulos.h"
+1300762608 /home/gurroz/Memori/FaceAnimator/src/movimientosAUV.h
+	"movimientosNodos.h"
 
 1285296760 /home/gurroz/Memori/FaceAnimator/src/movimientosNodos.h
 	"punto.h"
@@ -6887,10 +6888,10 @@
 1285296762 /home/gurroz/Memori/FaceAnimator/src/leppdelaunay.h
 	"algrefinamientomallatriangulos.h"
 
-1300312204 /home/gurroz/Memori/FaceAnimator/src/mejdelaunay.h
+1300762322 /home/gurroz/Memori/FaceAnimator/src/mejdelaunay.h
 	"algmejoramientomallatriangulos.h"
 
-1300312423 /home/gurroz/Memori/FaceAnimator/src/algmejoramientomallatriangulos.h
+1300762397 /home/gurroz/Memori/FaceAnimator/src/algmejoramientomallatriangulos.h
 	"algmejoramiento.h"
 
 1285296762 source:/home/gurroz/Memori/FaceAnimator/src/generacilindro.cpp
@@ -7051,8 +7052,8 @@
 	<algorithm>
 	<iostream>
 
-1300312664 /home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.h
-	"algmejoramientomallatriangulos.h"
+1300762606 /home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.h
+	"movimientosNodos.h"
 
 1285296760 source:/home/gurroz/Memori/FaceAnimator/src/mallacuadrilateros.cpp
 	"mallacuadrilateros.h"
