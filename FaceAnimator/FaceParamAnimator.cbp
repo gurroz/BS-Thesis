@@ -226,8 +226,8 @@
 		<Unit filename="src/generafromwfm.h" />
 		<Unit filename="src/generafromwrl.cpp" />
 		<Unit filename="src/generafromwrl.h" />
-		<Unit filename="src/generar.cpp" />
-		<Unit filename="src/generar.h" />
+		<Unit filename="src/generarmallainicial.cpp" />
+		<Unit filename="src/generarmallainicial.h" />
 		<Unit filename="src/guardar.cpp" />
 		<Unit filename="src/guardar.h" />
 		<Unit filename="src/informacionmalla.cpp" />

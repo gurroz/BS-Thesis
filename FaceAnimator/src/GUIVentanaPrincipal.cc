@@ -13,7 +13,7 @@
 #include "GUI_AUVSelector.hh"
 
 #include "comando.h"
-#include "generar.h"
+#include "generarmallainicial.h"
 #include "mejorar.h"
 #include "guardar.h"
 #include "refinar.h"
@@ -112,7 +112,7 @@ void GUIVentanaPrincipal::on_nuevo1_activate(){
 				tipoMalla=1;
 			else
 				return;
-			comando=new Generar(tipo, altura, radio, num_anillos, num_puntos, tipoMalla);
+			comando=new GenerarMallaInicial(tipo, altura, radio, num_anillos, num_puntos, tipoMalla);
 			}
         else if (dialog.getTipoFigura()=="A partir de Medula"){
 			int tipo=20;
@@ -130,7 +130,7 @@ void GUIVentanaPrincipal::on_nuevo1_activate(){
 				tipoMalla=1;
 			else
 				return;
-			comando=new Generar(tipo,archivo,radio,num_anillos,num_puntos,tipoMalla);
+			comando=new GenerarMallaInicial(tipo,archivo,radio,num_anillos,num_puntos,tipoMalla);
 			}
 		else
 			return;
@@ -165,18 +165,18 @@ void GUIVentanaPrincipal::on_abrir1_activate(){
 		    int tipofiltro=4;
 		    es_face=true;
 		    list<string> filenames=dialog_abrir->get_filenames();
-		    comando = new Generar(tipofiltro, filenames);
+		    comando = new GenerarMallaInicial(tipofiltro, filenames);
             }
         else if (filtro->get_name()=="wrl (VRML)"){
 		    int tipofiltro=5;
 		    es_face=true;
 		    list<string> filenames=dialog_abrir->get_filenames();
-		    comando = new Generar(tipofiltro, filenames);
+		    comando = new GenerarMallaInicial(tipofiltro, filenames);
             }
 		else if (filtro->get_name()=="off (Geomview)"){
 			int tipofiltro=0;
 			list<string> filenames=dialog_abrir->get_filenames();
-			comando = new Generar(tipofiltro, filenames);
+			comando = new GenerarMallaInicial(tipofiltro, filenames);
 			}
 		else if (filtro->get_name()=="txt (Matlab)"){
 			int tipofiltro=1;
@@ -195,7 +195,7 @@ void GUIVentanaPrincipal::on_abrir1_activate(){
 					tipoMalla=1;
 				else
 					return;
-				comando=new Generar(tipofiltro,filenames,numeroDeAnillos,puntosPorAnillo,tipoMalla);
+				comando=new GenerarMallaInicial(tipofiltro,filenames,numeroDeAnillos,puntosPorAnillo,tipoMalla);
 				}
 			else
 				return;
@@ -208,12 +208,12 @@ void GUIVentanaPrincipal::on_abrir1_activate(){
 				return;
 				}
             filenames.sort();
-			comando = new Generar(tipofiltro, filenames);
+			comando = new GenerarMallaInicial(tipofiltro, filenames);
 			}
 		else if (filtro->get_name()=="cms_1 (comsol_1)"){
 			int tipofiltro=3;
 			list<string> filenames=dialog_abrir->get_filenames();
-			comando = new Generar(tipofiltro, filenames);
+			comando = new GenerarMallaInicial(tipofiltro, filenames);
 			}
 		else
 			return;

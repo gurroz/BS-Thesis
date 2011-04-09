@@ -6512,7 +6512,7 @@
 1285296762 /home/gurroz/Memori/FaceAnimator/src/interfacemanualregistration.h
 	"registrationmethod.h"
 
-1285296760 /home/gurroz/Memori/FaceAnimator/src/registrationmethod.h
+1301868787 /home/gurroz/Memori/FaceAnimator/src/registrationmethod.h
 	"malla.h"
 
 1285296762 /home/gurroz/Memori/FaceAnimator/src/generafromwfm.h
@@ -6555,7 +6555,7 @@
 1285296762 /home/gurroz/Memori/FaceAnimator/src/LoadTextures.h
 	<GL/gl.h>
 
-1299685930 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
+1301881306 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
 	"config.h"
 	"GUIVentanaPrincipal.hh"
 	"GUIDialogAbrirMatlab.hh"
@@ -6566,7 +6566,7 @@
 	"GUIDialogAlgCentro.hh"
 	"GUI_AUVSelector.hh"
 	"comando.h"
-	"generar.h"
+	"generarmallainicial.h"
 	"mejorar.h"
 	"guardar.h"
 	"refinar.h"
@@ -7141,4 +7141,11 @@
 	"verificacionnodosvecinoscolapsoregion.h"
 	<math.h>
 	"adaptercomputationalgeometry.h"
+
+1301881253 /home/gurroz/Memori/FaceAnimator/src/generarmallainicial.h
+	"comando.h"
+	"malla.h"
+	"alggeneracion.h"
+	<string>
+	<list>
 
