@@ -4,6 +4,8 @@
 #include "comando.h"
 #include "malla.h"
 #include "alggeneracion.h"
+#include "interpolador.h"
+#include "registrationmethod.h"
 
 #include <string>
 #include <list>

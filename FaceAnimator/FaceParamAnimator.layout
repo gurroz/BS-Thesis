@@ -43,20 +43,23 @@
 	<File name="src/GUIFaceMatcher_glade.cc" open="0" top="0" tabpos="10">
 		<Cursor position="598" topLine="17" />
 	</File>
-	<File name="src/GUIVentanaFaceModeling.cpp" open="1" top="1" tabpos="4">
-		<Cursor position="2210" topLine="0" />
+	<File name="src/GUIVentanaFaceModeling.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1954" topLine="60" />
 	</File>
 	<File name="src/GUIVentanaFaceModeling.hh" open="1" top="0" tabpos="3">
-		<Cursor position="508" topLine="3" />
+		<Cursor position="81" topLine="0" />
 	</File>
-	<File name="src/GUIVentanaPrincipal.cc" open="0" top="0" tabpos="8">
-		<Cursor position="6674" topLine="213" />
+	<File name="src/GUIVentanaPrincipal.cc" open="1" top="0" tabpos="13">
+		<Cursor position="7066" topLine="219" />
 	</File>
-	<File name="src/GUIVentanaPrincipal.hh" open="0" top="0" tabpos="8">
-		<Cursor position="312" topLine="30" />
+	<File name="src/GUIVentanaPrincipal.hh" open="1" top="0" tabpos="12">
+		<Cursor position="312" topLine="6" />
 	</File>
 	<File name="src/GUIVentanaPrincipal_glade.cc" open="0" top="0" tabpos="12">
 		<Cursor position="37246" topLine="751" />
+	</File>
+	<File name="src/GUIVentanaPrincipal_glade.hh" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="66" />
 	</File>
 	<File name="src/GUIVentanaTreeGrowth.cpp" open="0" top="0" tabpos="13">
 		<Cursor position="2033" topLine="50" />
@@ -128,25 +131,31 @@
 		<Cursor position="0" topLine="3" />
 	</File>
 	<File name="src/generarmallainicial.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="0" topLine="9" />
+		<Cursor position="1533" topLine="31" />
 	</File>
 	<File name="src/generarmallainicial.h" open="1" top="0" tabpos="1">
-		<Cursor position="0" topLine="0" />
+		<Cursor position="36" topLine="11" />
 	</File>
-	<File name="src/interfacemanualregistration.cpp" open="0" top="0" tabpos="5">
-		<Cursor position="73" topLine="0" />
+	<File name="src/interfacemanualregistration.cpp" open="1" top="1" tabpos="16">
+		<Cursor position="73" topLine="2" />
 	</File>
-	<File name="src/interfacemanualregistration.h" open="0" top="0" tabpos="8">
+	<File name="src/interfacemanualregistration.h" open="1" top="0" tabpos="15">
+		<Cursor position="165" topLine="0" />
+	</File>
+	<File name="src/interpolador.h" open="1" top="0" tabpos="7">
 		<Cursor position="132" topLine="0" />
 	</File>
-	<File name="src/interpolador.h" open="0" top="0" tabpos="11">
-		<Cursor position="216" topLine="0" />
+	<File name="src/interpoladorMixto.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="1067" topLine="27" />
 	</File>
-	<File name="src/interpoladorMixto.h" open="0" top="0" tabpos="12">
-		<Cursor position="0" topLine="0" />
+	<File name="src/interpoladorMixto.h" open="1" top="0" tabpos="11">
+		<Cursor position="194" topLine="0" />
 	</File>
-	<File name="src/interpoladorNodosCercanos.h" open="0" top="0" tabpos="6">
-		<Cursor position="0" topLine="0" />
+	<File name="src/interpoladorNodosCercanos.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="src/interpoladorNodosCercanos.h" open="1" top="0" tabpos="9">
+		<Cursor position="226" topLine="0" />
 	</File>
 	<File name="src/malla.cpp" open="0" top="0" tabpos="4">
 		<Cursor position="8844" topLine="350" />
@@ -181,19 +190,22 @@
 	<File name="src/noverificacion.h" open="0" top="0" tabpos="8">
 		<Cursor position="483" topLine="0" />
 	</File>
-	<File name="src/registrationmethod.h" open="0" top="0" tabpos="4">
+	<File name="src/registrationmethod.h" open="1" top="0" tabpos="14">
 		<Cursor position="100" topLine="0" />
 	</File>
 	<File name="src/treegrowthsimulator.cc" open="0" top="0" tabpos="0">
-		<Cursor position="835" topLine="6" />
+		<Cursor position="309" topLine="12" />
 	</File>
 	<File name="src/verificacionlocal.cpp" open="0" top="0" tabpos="12">
 		<Cursor position="304" topLine="54" />
 	</File>
-	<File name="src/verificacionlocal.h" open="0" top="0" tabpos="9">
-		<Cursor position="829" topLine="0" />
+	<File name="src/verificacionlocal.h" open="1" top="0" tabpos="6">
+		<Cursor position="844" topLine="0" />
 	</File>
-	<File name="src/verificacionnodosvecinos.cpp" open="0" top="0" tabpos="13">
-		<Cursor position="908" topLine="15" />
+	<File name="src/verificacionnodosvecinos.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="908" topLine="9" />
+	</File>
+	<File name="src/verificacionnodosvecinoscolapsoregion.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1386" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

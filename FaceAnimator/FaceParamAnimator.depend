@@ -6450,10 +6450,8 @@
 	"ScalesForParameters.h"
 	<iostream>
 
-1300305835 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.cpp
+1302577871 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.cpp
 	"GUIVentanaFaceModeling.hh"
-	"interpoladorMixto.h"
-	"interfacemanualregistration.h"
 	"generafromwfm.h"
 	<fstream>
 
@@ -6555,7 +6553,7 @@
 1285296762 /home/gurroz/Memori/FaceAnimator/src/LoadTextures.h
 	<GL/gl.h>
 
-1301881306 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
+1302577907 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
 	"config.h"
 	"GUIVentanaPrincipal.hh"
 	"GUIDialogAbrirMatlab.hh"
@@ -7142,10 +7140,23 @@
 	<math.h>
 	"adaptercomputationalgeometry.h"
 
-1301881253 /home/gurroz/Memori/FaceAnimator/src/generarmallainicial.h
+1302577734 /home/gurroz/Memori/FaceAnimator/src/generarmallainicial.h
 	"comando.h"
 	"malla.h"
 	"alggeneracion.h"
+	"interpolador.h"
+	"registrationmethod.h"
 	<string>
 	<list>
+
+1301881360 source:/home/gurroz/Memori/FaceAnimator/src/generarmallainicial.cpp
+	"generarmallainicial.h"
+	"generafromoff.h"
+	"generafromarchivosxyzu.h"
+	"generafrommatlab.h"
+	"generafromcomsol_1.h"
+	"generacilindro.h"
+	"generafrommedula.h"
+	"generafromwfm.h"
+	"generafromwrl.h"
 

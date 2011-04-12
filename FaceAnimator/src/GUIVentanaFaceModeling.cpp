@@ -10,9 +10,7 @@
 #define GMM_GTKMM_22_24(a,b) a
 #endif //
 
-#include "interpoladorMixto.h"
 
-#include "interfacemanualregistration.h"
 #include "generafromwfm.h"
 #include <fstream>
 
@@ -26,7 +24,7 @@
     mostrar_auv1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaFaceModeling::on_mostrar_auv1_activate), false);
 
     //interpolador = new InterpoladorUno();
-    interpolador = new InterpoladorMixto();
+//    interpolador = new InterpoladorMixto();
     value_ant = NULL;
 
  };
@@ -69,7 +67,7 @@ void GUIVentanaFaceModeling::on_mostrar_auv1_activate(){
 
  bool GUIVentanaFaceModeling::procesar_malla(){
 
-    RegistrationMethod *registrationMethod = new InterfaceManualRegistration();
+/*    RegistrationMethod *registrationMethod = new InterfaceManualRegistration();
     Malla *modelo = GeneraFromWFM("candide.wfm").aplicar();
     this->malla->setMovimientos("candide.wfm");
 
@@ -81,6 +79,7 @@ void GUIVentanaFaceModeling::on_mostrar_auv1_activate(){
         interpolador->setearInterpolaciones(this->malla, modelo);
         return true;
     }
+    */
     return false;
 
 };

@@ -218,23 +218,23 @@ void GUIVentanaPrincipal::on_abrir1_activate(){
 		else
 			return;
 
-		comando->execute();
+		/*comando->execute();
 		delete this->malla;
 		this->malla=comando->getMalla();
-        delete comando;
-
+        delete comando;*/
+        this->malla=comando->getMalla();
         dialog_abrir->hide();
 
 
 
     if(es_face){
-        bool exito = this->procesar_malla();//muestra la configuracion de caras
+        //bool exito = this->procesar_malla();//muestra la configuracion de caras
 
-            if(exito){
+           // if(exito){
                 if(malla->tieneTextura()){
                     simpleglscene->setMuestraArcos(false);
                     this->mostrar_arcos1->set_active(false);
-                }
+             //   }
 
                 simpleglscene->clear();
                 simpleglscene->updateMalla(malla, true);
