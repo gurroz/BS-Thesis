@@ -14,6 +14,7 @@ class NoVerificacion : public AlgDesplazamientoMallaTriangulos, public AlgDespla
     public:
         NoVerificacion(double val);
         void aplicar(Malla *malla);
+        void moverNodosSegunParametro(int ind, double val, Malla *malla){};
 };
 
 #endif

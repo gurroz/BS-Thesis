@@ -6016,7 +6016,7 @@
 	<GL/glu.h>
 	"malla.h"
 
-1300762432 /home/gurroz/Memori/FaceAnimator/src/malla.h
+1303440749 /home/gurroz/Memori/FaceAnimator/src/malla.h
 	<string>
 	<set>
 	<map>
@@ -6028,9 +6028,9 @@
 	"arco.h"
 	"cara.h"
 	"caras.h"
+	"punto.h"
 	"polinomio.h"
 	"fabricaalgoritmos.h"
-	"movimientosNodos.h"
 
 1285296762 /home/gurroz/Memori/FaceAnimator/src/definiciones.h
 
@@ -6102,7 +6102,7 @@
 	"algrefinamiento.h"
 	"algmejoramiento.h"
 
-1285296762 /home/gurroz/Memori/FaceAnimator/src/algdesplazamiento.h
+1303355273 /home/gurroz/Memori/FaceAnimator/src/algdesplazamiento.h
 	"malla.h"
 
 1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesrefinamiento.h
@@ -6119,11 +6119,10 @@
 1285296760 /home/gurroz/Memori/FaceAnimator/src/algmejoramiento.h
 	"malla.h"
 
-1300762608 /home/gurroz/Memori/FaceAnimator/src/movimientosAUV.h
-	"movimientosNodos.h"
+1303872655 /home/gurroz/Memori/FaceAnimator/src/movimientosAUV.h
+	"algdesplazamientomallatriangulos.h"
 
-1285296760 /home/gurroz/Memori/FaceAnimator/src/movimientosNodos.h
-	"punto.h"
+1303182202 /home/gurroz/Memori/FaceAnimator/src/movimientosNodos.h
 
 1285296762 source:/home/gurroz/Memori/FaceAnimator/src/GUIDialogAbrirMatlab.cc
 	"config.h"
@@ -6450,15 +6449,17 @@
 	"ScalesForParameters.h"
 	<iostream>
 
-1302577871 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.cpp
+1304304711 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.cpp
 	"GUIVentanaFaceModeling.hh"
 	"generafromwfm.h"
 	<fstream>
+	"movimientosFromFile.h"
 
-1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.hh
+1303441106 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaFaceModeling.hh
 	"GUIVentanaPrincipal.hh"
 	"GUI_AUVSelector.hh"
 	"interpolador.h"
+	"algdesplazamientomallatriangulos.h"
 
 1285296762 /home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.hh
 	"GUIVentanaPrincipal_glade.hh"
@@ -6513,7 +6514,7 @@
 1301868787 /home/gurroz/Memori/FaceAnimator/src/registrationmethod.h
 	"malla.h"
 
-1285296762 /home/gurroz/Memori/FaceAnimator/src/generafromwfm.h
+1303439239 /home/gurroz/Memori/FaceAnimator/src/generafromwfm.h
 	"alggeneracion.h"
 	"triangulo.h"
 	"cuadrilatero.h"
@@ -6553,7 +6554,7 @@
 1285296762 /home/gurroz/Memori/FaceAnimator/src/LoadTextures.h
 	<GL/gl.h>
 
-1302577907 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
+1304284845 source:/home/gurroz/Memori/FaceAnimator/src/GUIVentanaPrincipal.cc
 	"config.h"
 	"GUIVentanaPrincipal.hh"
 	"GUIDialogAbrirMatlab.hh"
@@ -6787,27 +6788,26 @@
 	"verificacionnodosvecinoscolapsoregion.h"
 	"fabricaalgoritmos.h"
 
-1285296760 /home/gurroz/Memori/FaceAnimator/src/noverificacion.h
+1303872730 /home/gurroz/Memori/FaceAnimator/src/noverificacion.h
 	"algdesplazamientomallatriangulos.h"
 	"algdesplazamientomallacuadrilateros.h"
 
-1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesplazamientomallatriangulos.h
-	"malla.h"
+1303872962 /home/gurroz/Memori/FaceAnimator/src/algdesplazamientomallatriangulos.h
 	"algdesplazamiento.h"
 
 1285296760 /home/gurroz/Memori/FaceAnimator/src/algdesplazamientomallacuadrilateros.h
 	"malla.h"
 	"algdesplazamiento.h"
 
-1285296762 /home/gurroz/Memori/FaceAnimator/src/verificacionlocal.h
+1303872655 /home/gurroz/Memori/FaceAnimator/src/verificacionlocal.h
 	<map>
 	<list>
 	"algdesplazamientomallatriangulos.h"
 
-1285296762 /home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinos.h
+1303872653 /home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinos.h
 	"algdesplazamientomallatriangulos.h"
 
-1285296760 /home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinoscolapsoregion.h
+1303872652 /home/gurroz/Memori/FaceAnimator/src/verificacionnodosvecinoscolapsoregion.h
 	"algdesplazamientomallatriangulos.h"
 	"algdesplazamientomallacuadrilateros.h"
 
@@ -7040,18 +7040,17 @@
 	"lepp.h"
 	"mallatriangulos.h"
 
-1289440815 source:/home/gurroz/Memori/FaceAnimator/src/malla.cpp
+1303440793 source:/home/gurroz/Memori/FaceAnimator/src/malla.cpp
 	"malla.h"
 	"adaptercomputationalgeometry.h"
-	"movimientosFromFile.h"
 	<limits>
 	<vector>
 	<iterator>
 	<algorithm>
 	<iostream>
 
-1300762606 /home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.h
-	"movimientosNodos.h"
+1303441071 /home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.h
+	"algdesplazamientomallatriangulos.h"
 
 1285296760 source:/home/gurroz/Memori/FaceAnimator/src/mallacuadrilateros.cpp
 	"mallacuadrilateros.h"
@@ -7072,10 +7071,10 @@
 	"mejdelaunay.h"
 	"fabricaalgoritmos.h"
 
-1285296762 source:/home/gurroz/Memori/FaceAnimator/src/movimientosAUV.cpp
+1303441578 source:/home/gurroz/Memori/FaceAnimator/src/movimientosAUV.cpp
 	"movimientosAUV.h"
 
-1285296762 source:/home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.cpp
+1303441376 source:/home/gurroz/Memori/FaceAnimator/src/movimientosFromFile.cpp
 	"movimientosFromFile.h"
 	<fstream>
 	<sstream>
@@ -7109,7 +7108,7 @@
 	"segmenttriangleintersection.h"
 	<iostream>
 
-1285296760 source:/home/gurroz/Memori/FaceAnimator/src/treegrowthsimulator.cc
+1303873090 source:/home/gurroz/Memori/FaceAnimator/src/treegrowthsimulator.cc
 	"config.h"
 	<gtkmm/main.h>
 	"GUIDialogInicio.hh"
@@ -7149,7 +7148,7 @@
 	<string>
 	<list>
 
-1301881360 source:/home/gurroz/Memori/FaceAnimator/src/generarmallainicial.cpp
+1303440592 source:/home/gurroz/Memori/FaceAnimator/src/generarmallainicial.cpp
 	"generarmallainicial.h"
 	"generafromoff.h"
 	"generafromarchivosxyzu.h"
@@ -7159,4 +7158,6 @@
 	"generafrommedula.h"
 	"generafromwfm.h"
 	"generafromwrl.h"
+	"interpoladorMixto.h"
+	"interfacemanualregistration.h"
 

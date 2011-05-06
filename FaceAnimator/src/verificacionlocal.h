@@ -18,6 +18,7 @@ class VerificacionLocal : public AlgDesplazamientoMallaTriangulos {
     public:
         VerificacionLocal(double val); //val indica la proporcion a desplazar. Si es -1 desplaza hasta la primera inconsistencia.
         void aplicar(Malla *malla);
+        void moverNodosSegunParametro(int ind, double val, Malla *malla){};
 };
 
 #endif

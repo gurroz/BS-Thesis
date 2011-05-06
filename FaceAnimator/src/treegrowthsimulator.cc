@@ -15,7 +15,6 @@
 int main(int argc, char **argv){
 
     Gtk::Main m(argc, argv);
-
     // Init gtkglextmm.
     Gtk::GL::init(argc, argv);
 

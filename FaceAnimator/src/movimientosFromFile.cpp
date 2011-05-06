@@ -4,7 +4,7 @@
 #include <sstream>
 #define MAXLINE	256
 
-MovimientosFromFile::MovimientosFromFile(string filename){
+MovimientosFromFile::MovimientosFromFile(string filename): AlgDesplazamientoMallaTriangulos(){
     N = 11;
     sizes = new int[N];
     nodes = new int*[N];
@@ -87,6 +87,53 @@ MovimientosFromFile::~MovimientosFromFile(){
     delete[] nodes;
     delete[] values;
 };
+
+void MovimientosFromFile::aplicar(Malla *malla) {
+return;
+}
+
+void MovimientosFromFile::moverNodosSegunParametro(int indice, double valor, Malla *malla){
+
+    int nNodos = malla->getMaxIndiceNodos();
+    double xs[nNodos +1];
+    double ys[nNodos +1];
+    double zs[nNodos +1];
+
+    for(int i = 0; i <= nNodos; ++i){
+        xs[i] = 0.0;
+        ys[i] = 0.0;
+        zs[i] = 0.0;
+    }
+
+    for(int i = 0; i < malla->getNodos()->n_marcados; ++i){
+        Punto *p = this->getMovimiento(i, indice);
+        int ind = malla->getNodos()->nodos_marcados[i];
+        xs[ind] = p->getX();
+        ys[ind] = p->getY();
+        zs[ind] = p->getZ();
+    }
+
+    for(int i = 0; i <= nNodos; ++i){
+        Nodo *n = malla->getNodo(i);
+        int i1 = n->getAsociado1();
+        int i2 = n->getAsociado2();
+        int i3 = n->getAsociado3();
+
+        if(i1<0 || i2<0 || i3<0)
+            continue;
+
+        float coef1 = n->getCoef1();
+        float coef2 = n->getCoef2();
+        float coef3 = n->getCoef3();
+
+        float newX = n->getPunto().getX() + coef1*xs[i1]*valor + coef2*xs[i2]*valor + coef3*xs[i3]*valor;
+        float newY = n->getPunto().getY() + coef1*ys[i1]*valor + coef2*ys[i2]*valor + coef3*ys[i3]*valor;
+        float newZ = n->getPunto().getZ() + coef1*zs[i1]*valor + coef2*zs[i2]*valor + coef3*zs[i3]*valor;
+
+        n->setPunto(Punto(newX, newY, newZ));
+    }
+
+}
 
 Punto *MovimientosFromFile::getMovimiento(int number_nodo, int indice_unit){
     for(int i = 0; i < sizes[indice_unit]; ++i){

@@ -2,7 +2,7 @@
 
 #include "adaptercomputationalgeometry.h"
 
-#include "movimientosFromFile.h"
+//#include "movimientosFromFile.h"
 #include <limits>
 #include <vector>
 #include <iterator>
@@ -33,6 +33,7 @@ Malla::Malla(Nodos *nds, Arcos *arcs, Caras *crs) {
 	fabrica_algoritmos = NULL;
 	hasTextura = false;
 	sgteMalla = NULL;
+	mov_filename = "";
 }
 
 
@@ -93,6 +94,9 @@ int Malla::getNumCaras() {
 	return caras->getNumCarasValidas();
 }
 
+string Malla::getMovFileName(){
+   return mov_filename;
+}
 void Malla::setNodoDestacado(int indNodo){
 	nodosDestacados.push_back(indNodo);
 	}
@@ -133,7 +137,7 @@ bool Malla::tieneTextura(){
 }
 
 void Malla::setMovimientos(string file){
-	movimientos = new MovimientosFromFile(file);
+	mov_filename = file;
 }
 
 
@@ -352,6 +356,7 @@ void Malla::moverNodosSegunConcentracion(double val) {
 	nodos->moverTodosSegunConcentracion(val);
 }
 
+/*
 void Malla::moverNodosSegunParametro(int indice, double valor){
 
     int nNodos = getMaxIndiceNodos();
@@ -394,7 +399,7 @@ void Malla::moverNodosSegunParametro(int indice, double valor){
     }
 
 }
-
+*/
 Malla *Malla::nextMalla(){
     return sgteMalla;
 }
@@ -1329,6 +1334,9 @@ void Malla::print() {
 			cout << "NULL" << endl;
 	}
 }
+
+
+
 
 Malla::~Malla(){
     if(sgteMalla != NULL){

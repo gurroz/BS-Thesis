@@ -1,7 +1,6 @@
 #ifndef ALGDESPLAZAMIENTOMALLATRIANGULOS_H
 #define ALGDESPLAZAMIENTOMALLATRIANGULOS_H
 
-#include "malla.h"
 #include "algdesplazamiento.h"
 
 /**
@@ -10,6 +9,7 @@
 class AlgDesplazamientoMallaTriangulos : public AlgDesplazamiento {
     public:
         virtual void aplicar(Malla *malla) = 0;
+        virtual void moverNodosSegunParametro(int ind, double val, Malla *malla) = 0;
 		virtual ~AlgDesplazamientoMallaTriangulos(){}
 };
 

@@ -11,6 +11,7 @@
 class GUI_AUVSelector;
 #  include "GUI_AUVSelector.hh"
 #  include "interpolador.h"
+#  include "algdesplazamientomallatriangulos.h"
 
 using namespace std;
 class GUIVentanaFaceModeling : public GUIVentanaPrincipal
@@ -19,6 +20,7 @@ class GUIVentanaFaceModeling : public GUIVentanaPrincipal
 		GUI_AUVSelector* win_auv;
 		class Gtk::CheckMenuItem * mostrar_auv1;
         Interpolador *interpolador;
+        AlgDesplazamientoMallaTriangulos *movimientos;
         double* value_ant;
     protected:
         bool procesar_malla();

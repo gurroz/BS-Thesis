@@ -11,6 +11,7 @@
 #include "interfacemanualregistration.h"
 
 
+
 GenerarMallaInicial::GenerarMallaInicial(int tipoFiltro, list<string> filenames, int numeroDeAnillos, int puntosPorAnillo, int tipoMalla):Comando(0){
     algoritmo=NULL;
 

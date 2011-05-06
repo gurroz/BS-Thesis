@@ -13,25 +13,23 @@
 
 #include "generafromwfm.h"
 #include <fstream>
+#include "movimientosFromFile.h"
 
-
- GUIVentanaFaceModeling::GUIVentanaFaceModeling(): GUIVentanaPrincipal("Face Animator"){
+ GUIVentanaFaceModeling::GUIVentanaFaceModeling(): GUIVentanaPrincipal("Face  Animator"){
     win_auv = new GUI_AUVSelector(this);
 
     menuitem3_menu->items().push_front(Gtk::Menu_Helpers::CheckMenuElem("Mostrar ventana con Action Units"));
     mostrar_auv1 = (Gtk::CheckMenuItem *)&menuitem3_menu->items().front();
     mostrar_auv1->set_active(false);
     mostrar_auv1->signal_activate().connect(sigc::mem_fun(*this, &GUIVentanaFaceModeling::on_mostrar_auv1_activate), false);
-
-    //interpolador = new InterpoladorUno();
-//    interpolador = new InterpoladorMixto();
     value_ant = NULL;
 
  };
 
  void GUIVentanaFaceModeling::moverMallaAUV(int i, double value){
      if(this->malla != NULL){
-         this->malla->moverNodosSegunParametro(i, value*simpleglscene->diametrox);
+         movimientos = new MovimientosFromFile(this->malla->getMovFileName() );
+         movimientos->moverNodosSegunParametro(i, value*simpleglscene->diametrox,this->malla );
          this->simpleglscene->updateMalla(malla, false);
      }
  };
@@ -124,6 +122,7 @@ void GUIVentanaFaceModeling::on_deformar1_activate(){
 };
 
 void GUIVentanaFaceModeling::moveFromFile(string name){
+    movimientos = new MovimientosFromFile(this->malla->getMovFileName() );
     ifstream in(name.c_str());
     if(in){
         int NUMBER = (name.find(".fap") != string::npos? 68 : 14);
@@ -190,7 +189,7 @@ void GUIVentanaFaceModeling::moveFromFile(string name){
                 if(used[j]){
                     double quantity;
                     line_frame >> quantity;
-                    this->malla->moverNodosSegunParametro(j, (quantity-value_ant[j])*simpleglscene->diametrox/150.0);
+                    movimientos->moverNodosSegunParametro(j, (quantity-value_ant[j])*simpleglscene->diametrox/150.0,this->malla );
                     value_ant[j] = quantity;
                 }
             }

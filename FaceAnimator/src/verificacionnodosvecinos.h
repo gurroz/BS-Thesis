@@ -11,6 +11,7 @@ class VerificacionNodosVecinos : public AlgDesplazamientoMallaTriangulos {
     public:
         VerificacionNodosVecinos(double val);
         void aplicar(Malla *malla);
+        void moverNodosSegunParametro(int ind, double val, Malla *malla){};
 	private:
         double val;
 		int nnodosborrados;

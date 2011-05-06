@@ -42,7 +42,6 @@ GUIVentanaPrincipal::GUIVentanaPrincipal(string title){
 	simpleglscene->show();
 	n = 0;
     this->set_title(title);
-
     this->dialog_abrir = createDialogAbrir();
 
 }

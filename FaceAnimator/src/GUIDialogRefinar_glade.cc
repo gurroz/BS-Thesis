@@ -26,8 +26,7 @@
 #include <gtkmm/radiobutton.h>
 #include <gtkmm/adjustment.h>
 
-GUIDialogRefinar_glade::GUIDialogRefinar_glade(
-)
+GUIDialogRefinar_glade::GUIDialogRefinar_glade()
 {  GUIDialogRefinar = this;
    gmm_data = new GlademmData(get_accel_group());
    cancelbutton4 = Gtk::manage(new class Gtk::Button(Gtk::StockID("gtk-cancel")));

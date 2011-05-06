@@ -263,7 +263,6 @@
 		<Unit filename="src/movimientosAUV.h" />
 		<Unit filename="src/movimientosFromFile.cpp" />
 		<Unit filename="src/movimientosFromFile.h" />
-		<Unit filename="src/movimientosNodos.h" />
 		<Unit filename="src/nodo.cpp" />
 		<Unit filename="src/nodo.h" />
 		<Unit filename="src/nodos.cpp" />

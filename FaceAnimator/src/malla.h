@@ -14,15 +14,16 @@
 #include "arco.h"
 #include "cara.h"
 #include "caras.h"
+#include "punto.h"
 #include "polinomio.h"
 #include "fabricaalgoritmos.h"
-#include "movimientosNodos.h"
 
 class Arco;
 class Arcos;
 class Cara;
 class Caras;
 class FabricaAlgoritmos;
+
 
 /**
 @author Nicolas Silva Herrera, Ricardo Medina Diaz, Cristina Melo
@@ -42,7 +43,7 @@ class Malla{
 		GLuint textura;
 		bool hasTextura;
 		Malla *sgteMalla;
-		MovimientosNodos *movimientos;
+		string mov_filename;
 
     public:
         // construtores:
@@ -74,6 +75,7 @@ class Malla{
         int getNumNodos(); // get del número de nodos efectivos de la malla
         int getNumArcos(); // get del número de arcos efectivos de la malla
         int getNumCaras(); // get del número de caras efectivos de la malla
+        string getMovFileName(); // get del número de caras efectivos de la malla
 		void clearNodosDestacados();
 		vector<int>* getNodosDestacados();
 		vector<Punto> getMedula();
@@ -103,7 +105,7 @@ class Malla{
 
         // transformaciones:
         void moverNodosSegunConcentracion(double val);
-        void moverNodosSegunParametro(int ind, double val);
+       // void moverNodosSegunParametro(int ind, double val);
         void moverMallaModeloSegunAUV(int ind, double val);
         void moverNodosSegunShapeUnit(int ind, double val);
 

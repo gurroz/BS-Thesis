@@ -11,6 +11,7 @@ class VerificacionNodosVecinosColapsoRegion : public AlgDesplazamientoMallaTrian
     public:
         VerificacionNodosVecinosColapsoRegion(double val);
         void aplicar(Malla *malla);
+        void moverNodosSegunParametro(int ind, double val, Malla *malla){};
 	private:
         int indNodo;
         double val;
